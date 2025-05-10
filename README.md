@@ -1,298 +1,574 @@
 # LZone Cheat Sheet Collection
 
-Markdown sources for all the cheat sheets found at https://lzone.de/
+Markdown sources for the default cheat sheets accessible at https://lzone.de/
 
 - If you find this helpful consider giving a :star:
 - If you miss a topic suggest it by opening an issue
 
-Note: you can install even more cheat sheets in your local browser using the
-[Additional Cheat Sheets](https://lzone.de/#/settings) feature!
+[![Build](https://github.com/lwindolf/lzone-cheat-sheets/actions/workflows/create-index.yml/badge.svg)](https://github.com/lwindolf/lzone-cheat-sheets/actions/workflows/create-index.yml)
 
 <!-- marker -->
 
+## Cheat Sheets Index
 
-
-## LZone Cheat Sheets Index
-
-
-<br/><b>Automation</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Ansible'>Ansible</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Chef'>Chef</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Jinja'>Jinja</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Mcollective'>Mcollective</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Puppet'>Puppet</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Puppet - Hiera'>Puppet - Hiera</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/SaltStack'>SaltStack</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Automation/Swagger'>Swagger</a>
-<br/><b>CICD</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/ArgoCD'>ArgoCD</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Gerrit'>Gerrit</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Git'>Git</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Github Actions'>Github Actions</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Gradle'>Gradle</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins'>Jenkins</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins Docs'>Jenkins Docs</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Jenkins Pipeline DSL'>Jenkins Pipeline DSL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/JenkinsX'>JenkinsX</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/JFrog CLI'>JFrog CLI</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/CICD/Maven'>Maven</a>
-<br/><b>Cloud</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/ARM'>ARM</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/AWS'>AWS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/AWS Lamba'>AWS Lamba</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/Azure'>Azure</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/Azure Devops'>Azure Devops</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/KVM'>KVM</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/LXC'>LXC</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/OpenNebula'>OpenNebula</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/OpenVZ'>OpenVZ</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/packer'>packer</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/S3'>S3</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/Terraform'>Terraform</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/Vagrant'>Vagrant</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/VirtualBox'>VirtualBox</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/VM Tuning'>VM Tuning</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Cloud/Xen'>Xen</a>
-<br/><b>Container</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Buildah'>Buildah</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Container Orchestration'>Container Orchestration</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Docker'>Docker</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Docker Compose'>Docker Compose</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Docker Swarm'>Docker Swarm</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Dockerfile'>Dockerfile</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/Podman'>Podman</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/runc'>runc</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Container/skopeo'>skopeo</a>
-<br/><b>DevOps Linux</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Architecture'>Architecture</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/auditd'>auditd</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/cgroups'>cgroups</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/DBUS'>DBUS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Debugging'>Debugging</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/DKMS'>DKMS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/DRBD'>DRBD</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/DXVK'>DXVK</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Filesystem'>Filesystem</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/fontconfig'>fontconfig</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/GPG'>GPG</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/GPU'>GPU</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Grub'>Grub</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/IPMI'>IPMI</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/kerberos'>kerberos</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Kernel Tracing'>Kernel Tracing</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Linux-Commands'>Linux-Commands</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Linux-HA'>Linux-HA</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Linux-Sysadmin'>Linux-Sysadmin</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Linux-Virtualization'>Linux-Virtualization</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/LVM'>LVM</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/mokutil'>mokutil</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/nohup'>nohup</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Partitioning'>Partitioning</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/perf'>perf</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/PKI'>PKI</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Printing'>Printing</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/RAID'>RAID</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/screen'>screen</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/socat'>socat</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/sops'>sops</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/strace'>strace</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/sudo'>sudo</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/supervisor'>supervisor</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/systemd'>systemd</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/systemtap'>systemtap</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/ulimit'>ulimit</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/vi'>vi</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/Wifi'>Wifi</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/X11'>X11</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/XDG'>XDG</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Linux/ZFS'>ZFS</a>
-<br/><b>DevOps Services</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Apache'>Apache</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Ceph'>Ceph</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Consul'>Consul</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Couchbase'>Couchbase</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/CouchDB'>CouchDB</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/ElasticSearch'>ElasticSearch</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/etcd'>etcd</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/etcdv2'>etcdv2</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/F5'>F5</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/GlusterFS'>GlusterFS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/htaccess'>htaccess</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Java'>Java</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Kafka'>Kafka</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/LDAP'>LDAP</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/memcached'>memcached</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/MongoDB'>MongoDB</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/MySQL'>MySQL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/NFS'>NFS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/nginx'>nginx</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Nodejs'>Nodejs</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/NTP'>NTP</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/OAuth'>OAuth</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/PgBouncer'>PgBouncer</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Postgres'>Postgres</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/RabbitMQ'>RabbitMQ</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Redis'>Redis</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Redis Sentinel'>Redis Sentinel</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Samba'>Samba</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Splunk'>Splunk</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/sqlite'>sqlite</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Squid'>Squid</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Tomcat'>Tomcat</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Vault'>Vault</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Webserver'>Webserver</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/DevOps Services/Zookeeper'>Zookeeper</a>
-<br/><b>kubernetes</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Helm'>Helm</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Helm Templates'>Helm Templates</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kops'>kops</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kubectl'>kubectl</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kubernetes'>kubernetes</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kubernetes ConfigMap'>kubernetes ConfigMap</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kubernetes DNS'>kubernetes DNS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/kubernetes StorageClass'>kubernetes StorageClass</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Minikube'>Minikube</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Minishift'>Minishift</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/nginx-ingress'>nginx-ingress</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Openshift'>Openshift</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/PKS'>PKS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/kubernetes/Tekton'>Tekton</a>
-<br/><b>Languages</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/autotools'>autotools</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/CSS'>CSS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/GCC'>GCC</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/gdb'>gdb</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/JSONPath'>JSONPath</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Linux HTML Widgets'>Linux HTML Widgets</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/meson'>meson</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Misc'>Misc</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Perl'>Perl</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/PHP'>PHP</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Ruby'>Ruby</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/SQL'>SQL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Syndication'>Syndication</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/Vala'>Vala</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/valgrind'>valgrind</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/When to start pattern'>When to start pattern</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/XML'>XML</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/XPath'>XPath</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/XSLT'>XSLT</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Languages/YAML'>YAML</a>
-<br/><b>Mobile</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Mobile/adb'>adb</a>
-<br/><b>Monitoring</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Grafana'>Grafana</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Graphite'>Graphite</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Loki'>Loki</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Munin'>Munin</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Nagios'>Nagios</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Monitoring/Prometheus'>Prometheus</a>
-<br/><b>Network</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/curl'>curl</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/iptables'>iptables</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/Linux-Networking'>Linux-Networking</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/Mail'>Mail</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/mDNS'>mDNS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/netfilter'>netfilter</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/netrc'>netrc</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/Network'>Network</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/rsync'>rsync</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/SMB'>SMB</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/SSH'>SSH</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/tcpdump'>tcpdump</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/unbound'>unbound</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Network/wget'>wget</a>
-<br/><b>Packaging</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/apt'>apt</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/Bower'>Bower</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/cargo'>cargo</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/Conan'>Conan</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/dpkg'>dpkg</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/flatpak'>flatpak</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/gem'>gem</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/golang'>golang</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/gradle'>gradle</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/maven'>maven</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/npm'>npm</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/pacman'>pacman</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/pip'>pip</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/Ruby Bundler'>Ruby Bundler</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/rvm'>rvm</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/snap'>snap</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/yum'>yum</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Packaging/zypper'>zypper</a>
-<br/><b>Scripting</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/APIs'>APIs</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/awk'>awk</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Bash'>Bash</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Bash Associative Array'>Bash Associative Array</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Bash Functions'>Bash Functions</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Bash Regex'>Bash Regex</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/ffmpeg'>ffmpeg</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Images'>Images</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/jq'>jq</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Locking'>Locking</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Scripting'>Scripting</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/sed'>sed</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/Shell-Scripting'>Shell-Scripting</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/xargs'>xargs</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/yq'>yq</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Scripting/zenity'>zenity</a>
-<br/><b>Security</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/AppArmor'>AppArmor</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/HTTPS'>HTTPS</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/Incident Handling'>Incident Handling</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/OpenSCAP'>OpenSCAP</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/OpenSSL'>OpenSSL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/Package Vulnerabilities'>Package Vulnerabilities</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/Security'>Security</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/Security Auditing'>Security Auditing</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/Security-News-Feeds'>Security-News-Feeds</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/SELinux'>SELinux</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/SIEM'>SIEM</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Security/SSL-Certificates'>SSL-Certificates</a>
-<br/><b>Solutions</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/SaaS Dev Tools'>SaaS Dev Tools</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Service Architecture'>Service Architecture</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Auth'>Solutions Auth</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Automation'>Solutions Automation</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions CICD'>Solutions CICD</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Firewall'>Solutions Firewall</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Hosting'>Solutions Hosting</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Install Server'>Solutions Install Server</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Loadbalancing'>Solutions Loadbalancing</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Monitoring'>Solutions Monitoring</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions NoSQL'>Solutions NoSQL</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Orchestration'>Solutions Orchestration</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Solutions/Solutions Virtualization'>Solutions Virtualization</a>
-<br/><b>Windows</b> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/Edge'>Edge</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/netsh'>netsh</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/PowerShell'>PowerShell</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/registry'>registry</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/wmic'>wmic</a> | <a href='https://lzone.de/#/LZone Cheat Sheets/Windows/WSL'>WSL</a>
-
-## LZone Examples Index
-
-
-<br/><b>Glib Examples</b> | <a href='https://lzone.de/#/LZone Examples/Glib Examples/Glib'>Glib</a> | <a href='https://lzone.de/#/LZone Examples/Glib Examples/Glib GRegex'>Glib GRegex</a> | <a href='https://lzone.de/#/LZone Examples/Glib Examples/Glib Testing'>Glib Testing</a> | <a href='https://lzone.de/#/LZone Examples/Glib Examples/Glib XDG Migration'>Glib XDG Migration</a> | <a href='https://lzone.de/#/LZone Examples/Glib Examples/GObject'>GObject</a>
-<br/><b>Javascript Examples</b> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/GraphQL'>GraphQL</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Handlebars'>Handlebars</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Javascript Modules'>Javascript Modules</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Javascript RegExp'>Javascript RegExp</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Javascript strptime'>Javascript strptime</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Javascript void0'>Javascript void0</a> | <a href='https://lzone.de/#/LZone Examples/Javascript Examples/Nodejs Express'>Nodejs Express</a>
-<br/><b>PHP Examples</b> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP Arrays'>PHP Arrays</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP curl_setopt'>PHP curl_setopt</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP date'>PHP date</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP explode'>PHP explode</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP file_get_contents'>PHP file_get_contents</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP implode'>PHP implode</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP in_array'>PHP in_array</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP ini_set'>PHP ini_set</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP preg_match'>PHP preg_match</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP preg_replace'>PHP preg_replace</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP str_replace'>PHP str_replace</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP stripos'>PHP stripos</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP strpos'>PHP strpos</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP strripos'>PHP strripos</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP strrpos'>PHP strrpos</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP ternary operator'>PHP ternary operator</a> | <a href='https://lzone.de/#/LZone Examples/PHP Examples/PHP unserialize'>PHP unserialize</a>
-<br/><b>Python Examples</b> | <a href='https://lzone.de/#/LZone Examples/Python Examples/PyGI GnomeKeyring'>PyGI GnomeKeyring</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/PyGI GStreamer'>PyGI GStreamer</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/PyGI GtkStatusIcon'>PyGI GtkStatusIcon</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python'>Python</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python argparse'>Python argparse</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python Dictionary'>Python Dictionary</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python re'>Python re</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python re.match'>Python re.match</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python re.sub'>Python re.sub</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python simplehttpserver'>Python simplehttpserver</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python split'>Python split</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python string concat'>Python string concat</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python subprocess'>Python subprocess</a> | <a href='https://lzone.de/#/LZone Examples/Python Examples/Python Syntax'>Python Syntax</a>
-<br/><b>Regex Examples</b> | <a href='https://lzone.de/#/LZone Examples/Regex Examples/Go Regex'>Go Regex</a> | <a href='https://lzone.de/#/LZone Examples/Regex Examples/Regex Overview'>Regex Overview</a> | <a href='https://lzone.de/#/LZone Examples/Regex Examples/Ruby Regex'>Ruby Regex</a>
-
-## Visual Ops Index
-
-
-<br/><b>du Radial Map</b> | <a href='https://lzone.de/#/LZone Visual Ops/du Radial Map'>du Radial Map</a>
-<br/><b>du Tree Map</b> | <a href='https://lzone.de/#/LZone Visual Ops/du Tree Map'>du Tree Map</a>
-<br/><b>netstat Dendrogram</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Dendrogram'>netstat Dendrogram</a>
-<br/><b>netstat Force Graph</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Force Graph'>netstat Force Graph</a>
-<br/><b>netstat Services</b> | <a href='https://lzone.de/#/LZone Visual Ops/netstat Services'>netstat Services</a>
+<br/><span class='group'><b>Agile</b></span>
+ | <a class='topic' href='Cheat Sheets/Agile/README.md'>README</a>
+<br/><span class='group'><b>Automation</b></span>
+ | <a class='topic' href='Cheat Sheets/Automation/Ansible.md'>Ansible</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Chef.md'>Chef</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Jinja.md'>Jinja</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Mcollective.md'>Mcollective</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Puppet - Hiera.md'>Puppet - Hiera</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Puppet.md'>Puppet</a>
+ | <a class='topic' href='Cheat Sheets/Automation/SaltStack.md'>SaltStack</a>
+ | <a class='topic' href='Cheat Sheets/Automation/Swagger.md'>Swagger</a>
+<br/><span class='group'><b>CICD</b></span>
+ | <a class='topic' href='Cheat Sheets/CICD/ArgoCD.md'>ArgoCD</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Gerrit.md'>Gerrit</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Git.md'>Git</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Github Actions.md'>Github Actions</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Gradle.md'>Gradle</a>
+ | <a class='topic' href='Cheat Sheets/CICD/JFrog CLI.md'>JFrog CLI</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins Docs.md'>Jenkins Docs</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins Pipeline DSL.md'>Jenkins Pipeline DSL</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Jenkins.md'>Jenkins</a>
+ | <a class='topic' href='Cheat Sheets/CICD/JenkinsX.md'>JenkinsX</a>
+ | <a class='topic' href='Cheat Sheets/CICD/Maven.md'>Maven</a>
+ | <a class='topic' href='Cheat Sheets/CICD/README.md'>README</a>
+<br/><span class='group'><b>Cloud</b></span>
+ | <a class='topic' href='Cheat Sheets/Cloud/ARM.md'>ARM</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/AWS Lamba.md'>AWS Lamba</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/AWS.md'>AWS</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Azure Devops.md'>Azure Devops</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Azure.md'>Azure</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/KVM.md'>KVM</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/LXC.md'>LXC</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/OpenNebula.md'>OpenNebula</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/OpenVZ.md'>OpenVZ</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/S3.md'>S3</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Terraform.md'>Terraform</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/VM Tuning.md'>VM Tuning</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Vagrant.md'>Vagrant</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/VirtualBox.md'>VirtualBox</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/Xen.md'>Xen</a>
+ | <a class='topic' href='Cheat Sheets/Cloud/packer.md'>packer</a>
+<br/><span class='group'><b>Container</b></span>
+ | <a class='topic' href='Cheat Sheets/Container/Buildah.md'>Buildah</a>
+ | <a class='topic' href='Cheat Sheets/Container/Container Orchestration.md'>Container Orchestration</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker Compose.md'>Docker Compose</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker Swarm.md'>Docker Swarm</a>
+ | <a class='topic' href='Cheat Sheets/Container/Docker.md'>Docker</a>
+ | <a class='topic' href='Cheat Sheets/Container/Dockerfile.md'>Dockerfile</a>
+ | <a class='topic' href='Cheat Sheets/Container/Podman.md'>Podman</a>
+ | <a class='topic' href='Cheat Sheets/Container/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/Container/runc.md'>runc</a>
+ | <a class='topic' href='Cheat Sheets/Container/skopeo.md'>skopeo</a>
+<br/><span class='group'><b>DevOps Linux</b></span>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Architecture.md'>Architecture</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DBUS.md'>DBUS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DKMS.md'>DKMS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DRBD.md'>DRBD</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/DXVK.md'>DXVK</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Debugging.md'>Debugging</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Filesystem.md'>Filesystem</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/GPG.md'>GPG</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/GPU.md'>GPU</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Grub.md'>Grub</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/IPMI.md'>IPMI</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Kernel Tracing.md'>Kernel Tracing</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/LVM.md'>LVM</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Commands.md'>Linux-Commands</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-HA.md'>Linux-HA</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Sysadmin.md'>Linux-Sysadmin</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Linux-Virtualization.md'>Linux-Virtualization</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/PKI.md'>PKI</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Partitioning.md'>Partitioning</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Printing.md'>Printing</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/RAID.md'>RAID</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/Wifi.md'>Wifi</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/X11.md'>X11</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/XDG.md'>XDG</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/ZFS.md'>ZFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/auditd.md'>auditd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/cgroups.md'>cgroups</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/fontconfig.md'>fontconfig</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/kerberos.md'>kerberos</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/mokutil.md'>mokutil</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/nohup.md'>nohup</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/perf.md'>perf</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/screen.md'>screen</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/socat.md'>socat</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/sops.md'>sops</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/strace.md'>strace</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/sudo.md'>sudo</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/supervisor.md'>supervisor</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/systemd.md'>systemd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/systemtap.md'>systemtap</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/ulimit.md'>ulimit</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Linux/vi.md'>vi</a>
+<br/><span class='group'><b>DevOps Services</b></span>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Apache.md'>Apache</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Ceph.md'>Ceph</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Consul.md'>Consul</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/CouchDB.md'>CouchDB</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Couchbase.md'>Couchbase</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/ElasticSearch.md'>ElasticSearch</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/F5.md'>F5</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/GlusterFS.md'>GlusterFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Graphite.md'>Graphite</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Java.md'>Java</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Kafka.md'>Kafka</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/LDAP.md'>LDAP</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/MongoDB.md'>MongoDB</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/MySQL.md'>MySQL</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/NFS.md'>NFS</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/NTP.md'>NTP</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Nodejs.md'>Nodejs</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/OAuth.md'>OAuth</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/PgBouncer.md'>PgBouncer</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Postgres.md'>Postgres</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/RabbitMQ.md'>RabbitMQ</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Redis Sentinel.md'>Redis Sentinel</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Redis.md'>Redis</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Samba.md'>Samba</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Splunk.md'>Splunk</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Squid.md'>Squid</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Tomcat.md'>Tomcat</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Vault.md'>Vault</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Webserver.md'>Webserver</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/Zookeeper.md'>Zookeeper</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/etcd.md'>etcd</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/etcdv2.md'>etcdv2</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/htaccess.md'>htaccess</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/memcached.md'>memcached</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/nginx.md'>nginx</a>
+ | <a class='topic' href='Cheat Sheets/DevOps Services/sqlite.md'>sqlite</a>
+<br/><span class='group'><b>Languages</b></span>
+ | <a class='topic' href='Cheat Sheets/Languages/CSS.md'>CSS</a>
+ | <a class='topic' href='Cheat Sheets/Languages/GCC.md'>GCC</a>
+ | <a class='topic' href='Cheat Sheets/Languages/JSONPath.md'>JSONPath</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Linux HTML Widgets.md'>Linux HTML Widgets</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Misc.md'>Misc</a>
+ | <a class='topic' href='Cheat Sheets/Languages/PHP.md'>PHP</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Perl.md'>Perl</a>
+ | <a class='topic' href='Cheat Sheets/Languages/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Ruby.md'>Ruby</a>
+ | <a class='topic' href='Cheat Sheets/Languages/SQL.md'>SQL</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Syndication.md'>Syndication</a>
+ | <a class='topic' href='Cheat Sheets/Languages/Vala.md'>Vala</a>
+ | <a class='topic' href='Cheat Sheets/Languages/When to start pattern.md'>When to start pattern</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XML.md'>XML</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XPath.md'>XPath</a>
+ | <a class='topic' href='Cheat Sheets/Languages/XSLT.md'>XSLT</a>
+ | <a class='topic' href='Cheat Sheets/Languages/YAML.md'>YAML</a>
+ | <a class='topic' href='Cheat Sheets/Languages/autotools.md'>autotools</a>
+ | <a class='topic' href='Cheat Sheets/Languages/gdb.md'>gdb</a>
+ | <a class='topic' href='Cheat Sheets/Languages/meson.md'>meson</a>
+ | <a class='topic' href='Cheat Sheets/Languages/valgrind.md'>valgrind</a>
+<br/><span class='group'><b>Mobile</b></span>
+ | <a class='topic' href='Cheat Sheets/Mobile/adb.md'>adb</a>
+<br/><span class='group'><b>Monitoring</b></span>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Grafana.md'>Grafana</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Graphite.md'>Graphite</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Loki.md'>Loki</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Munin.md'>Munin</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Nagios.md'>Nagios</a>
+ | <a class='topic' href='Cheat Sheets/Monitoring/Prometheus.md'>Prometheus</a>
+<br/><span class='group'><b>Network</b></span>
+ | <a class='topic' href='Cheat Sheets/Network/Linux-Networking.md'>Linux-Networking</a>
+ | <a class='topic' href='Cheat Sheets/Network/Mail.md'>Mail</a>
+ | <a class='topic' href='Cheat Sheets/Network/Network.md'>Network</a>
+ | <a class='topic' href='Cheat Sheets/Network/SMB.md'>SMB</a>
+ | <a class='topic' href='Cheat Sheets/Network/SSH.md'>SSH</a>
+ | <a class='topic' href='Cheat Sheets/Network/curl.md'>curl</a>
+ | <a class='topic' href='Cheat Sheets/Network/iptables.md'>iptables</a>
+ | <a class='topic' href='Cheat Sheets/Network/mDNS.md'>mDNS</a>
+ | <a class='topic' href='Cheat Sheets/Network/netfilter.md'>netfilter</a>
+ | <a class='topic' href='Cheat Sheets/Network/netrc.md'>netrc</a>
+ | <a class='topic' href='Cheat Sheets/Network/rsync.md'>rsync</a>
+ | <a class='topic' href='Cheat Sheets/Network/tcpdump.md'>tcpdump</a>
+ | <a class='topic' href='Cheat Sheets/Network/unbound.md'>unbound</a>
+ | <a class='topic' href='Cheat Sheets/Network/wget.md'>wget</a>
+<br/><span class='group'><b>Packaging</b></span>
+ | <a class='topic' href='Cheat Sheets/Packaging/Bower.md'>Bower</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/Conan.md'>Conan</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/Ruby Bundler.md'>Ruby Bundler</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/apt.md'>apt</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/cargo.md'>cargo</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/dpkg.md'>dpkg</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/flatpak.md'>flatpak</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/gem.md'>gem</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/golang.md'>golang</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/gradle.md'>gradle</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/maven.md'>maven</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/npm.md'>npm</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/pacman.md'>pacman</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/pip.md'>pip</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/rvm.md'>rvm</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/snap.md'>snap</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/yum.md'>yum</a>
+ | <a class='topic' href='Cheat Sheets/Packaging/zypper.md'>zypper</a>
+<br/><span class='group'><b>Scripting Examples</b></span>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/GObject.md'>GObject</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib GRegex.md'>Glib GRegex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib Testing.md'>Glib Testing</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib XDG Migration.md'>Glib XDG Migration</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Glib.md'>Glib</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/GraphQL.md'>GraphQL</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Handlebars.md'>Handlebars</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript Modules.md'>Javascript Modules</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript RegExp.md'>Javascript RegExp</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript strptime.md'>Javascript strptime</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Javascript void0.md'>Javascript void0</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Nodejs Express.md'>Nodejs Express</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP Arrays.md'>PHP Arrays</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP curl_setopt.md'>PHP curl_setopt</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP date.md'>PHP date</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP explode.md'>PHP explode</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP file_get_contents.md'>PHP file_get_contents</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP implode.md'>PHP implode</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP in_array.md'>PHP in_array</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP ini_set.md'>PHP ini_set</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP preg_match.md'>PHP preg_match</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP preg_replace.md'>PHP preg_replace</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP str_replace.md'>PHP str_replace</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP stripos.md'>PHP stripos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strpos.md'>PHP strpos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strripos.md'>PHP strripos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP strrpos.md'>PHP strrpos</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP ternary operator.md'>PHP ternary operator</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PHP unserialize.md'>PHP unserialize</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GStreamer.md'>PyGI GStreamer</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GnomeKeyring.md'>PyGI GnomeKeyring</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/PyGI GtkStatusIcon.md'>PyGI GtkStatusIcon</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python Dictionary.md'>Python Dictionary</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python Syntax.md'>Python Syntax</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python argparse.md'>Python argparse</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re.match.md'>Python re.match</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re.md'>Python re</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python re.sub.md'>Python re.sub</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python simplehttpserver.md'>Python simplehttpserver</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python split.md'>Python split</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python string concat.md'>Python string concat</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python subprocess.md'>Python subprocess</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Python.md'>Python</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/README.md'>README</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Go Regex.md'>Go Regex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Regex Overview.md'>Regex Overview</a>
+ | <a class='topic' href='Cheat Sheets/Scripting Examples/Ruby Regex.md'>Ruby Regex</a>
+<br/><span class='group'><b>Scripting</b></span>
+ | <a class='topic' href='Cheat Sheets/Scripting/APIs.md'>APIs</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Associative Array.md'>Bash Associative Array</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Functions.md'>Bash Functions</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash Regex.md'>Bash Regex</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Bash.md'>Bash</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Images.md'>Images</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Locking.md'>Locking</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Scripting.md'>Scripting</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/Shell-Scripting.md'>Shell-Scripting</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/awk.md'>awk</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/ffmpeg.md'>ffmpeg</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/jq.md'>jq</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/sed.md'>sed</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/xargs.md'>xargs</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/yq.md'>yq</a>
+ | <a class='topic' href='Cheat Sheets/Scripting/zenity.md'>zenity</a>
+<br/><span class='group'><b>Security</b></span>
+ | <a class='topic' href='Cheat Sheets/Security/AppArmor.md'>AppArmor</a>
+ | <a class='topic' href='Cheat Sheets/Security/HTTPS.md'>HTTPS</a>
+ | <a class='topic' href='Cheat Sheets/Security/Incident Handling.md'>Incident Handling</a>
+ | <a class='topic' href='Cheat Sheets/Security/OpenSCAP.md'>OpenSCAP</a>
+ | <a class='topic' href='Cheat Sheets/Security/OpenSSL.md'>OpenSSL</a>
+ | <a class='topic' href='Cheat Sheets/Security/Package Vulnerabilities.md'>Package Vulnerabilities</a>
+ | <a class='topic' href='Cheat Sheets/Security/SELinux.md'>SELinux</a>
+ | <a class='topic' href='Cheat Sheets/Security/SIEM.md'>SIEM</a>
+ | <a class='topic' href='Cheat Sheets/Security/SSL-Certificates.md'>SSL-Certificates</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security Auditing.md'>Security Auditing</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security-News-Feeds.md'>Security-News-Feeds</a>
+ | <a class='topic' href='Cheat Sheets/Security/Security.md'>Security</a>
+<br/><span class='group'><b>Solutions</b></span>
+ | <a class='topic' href='Cheat Sheets/Solutions/SaaS Dev Tools.md'>SaaS Dev Tools</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Service Architecture.md'>Service Architecture</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Auth.md'>Solutions Auth</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Automation.md'>Solutions Automation</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions CICD.md'>Solutions CICD</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Firewall.md'>Solutions Firewall</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Hosting.md'>Solutions Hosting</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Install Server.md'>Solutions Install Server</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Loadbalancing.md'>Solutions Loadbalancing</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Monitoring.md'>Solutions Monitoring</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions NoSQL.md'>Solutions NoSQL</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Orchestration.md'>Solutions Orchestration</a>
+ | <a class='topic' href='Cheat Sheets/Solutions/Solutions Virtualization.md'>Solutions Virtualization</a>
+<br/><span class='group'><b>Windows</b></span>
+ | <a class='topic' href='Cheat Sheets/Windows/Edge.md'>Edge</a>
+ | <a class='topic' href='Cheat Sheets/Windows/PowerShell.md'>PowerShell</a>
+ | <a class='topic' href='Cheat Sheets/Windows/WSL.md'>WSL</a>
+ | <a class='topic' href='Cheat Sheets/Windows/netsh.md'>netsh</a>
+ | <a class='topic' href='Cheat Sheets/Windows/registry.md'>registry</a>
+ | <a class='topic' href='Cheat Sheets/Windows/wmic.md'>wmic</a>
+<br/><span class='group'><b>kubernetes</b></span>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Helm Templates.md'>Helm Templates</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Helm.md'>Helm</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Minikube.md'>Minikube</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Minishift.md'>Minishift</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Openshift.md'>Openshift</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/PKS.md'>PKS</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/Tekton.md'>Tekton</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kops.md'>kops</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubectl.md'>kubectl</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes ConfigMap.md'>kubernetes ConfigMap</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes DNS.md'>kubernetes DNS</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes StorageClass.md'>kubernetes StorageClass</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/kubernetes.md'>kubernetes</a>
+ | <a class='topic' href='Cheat Sheets/kubernetes/nginx-ingress.md'>nginx-ingress</a>
 
 ## Installable External Cheat Sheets
 
-- [30s-of-code CSS](https://github.com/30-seconds/30-seconds-of-css)
-- [30s-of-code Git](https://github.com/30-seconds/30-seconds-of-git)
-- [30s-of-code JS](https://github.com/30-seconds/30-seconds-of-code)
-- [30s-of-code Python](https://github.com/30-seconds/30-seconds-of-python)
-- [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices)
-- [AWS EKS Workshop](https://github.com/aws-samples/eks-workshop-v2)
-- [AWS ELB Best Practices](https://github.com/aws-elb-best-practices)
-- [AWS S3 Python](https://github.com/nagwww/aws-s3-book)
-- [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops)
-- [AWSCookbook Security](https://github.com/AWSCookbook/Security)
-- [Ansible Tutorial](https://github.com/leucos/ansible-tuto)
-- [Architecture Books](https://github.com/mhadidg/software-architecture-books)
-- [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
-- [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
-- [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns)
-- [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns)
-- [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
-- [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture)
-- [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses)
-- [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet)
-- [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security)
-- [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
-- [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql)
-- [Awesome OSINT](https://github.com/jivoi/awesome-osint)
-- [Awesome OpenPolicyAgent](https://github.com/StyraInc/awesome-opa)
-- [Awesome Programming Projects](https://github.com/practical-tutorials/project-based-learning)
-- [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-- [Awesome Python](https://github.com/vinta/awesome-python)
-- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
-- [Awesome Security](https://github.com/zbetcheckin/Security_list)
-- [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security)
-- [Azure Monitoring Baseline](https://github.com/Azure/azure-monitor-baseline-alerts)
-- [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet)
-- [Azure Security](https://github.com/MicrosoftDocs/security)
-- [Backend Development Whitepaper](https://github.com/cheatsnake/backend-cheats)
-- [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
-- [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook)
-- [Bash by Example](https://github.com/cheatsnake/bash-scripts-by-example)
-- [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
-- [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML)
-- [CSS Architecture](https://github.com/jareware/css-architecture)
-- [Cloud Outages Index](https://github.com/lwindolf/cloud-outages)
-- [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets)
-- [Coding Interview University](https://github.com/jwasham/coding-interview-university)
-- [Cognitive Load](https://github.com/zakirullin/cognitive-load)
-- [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
-- [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
-- [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process)
-- [DDD by Examples](https://github.com/ddd-by-examples/library)
-- [Databases Introduction](https://github.com/anhthii/database-notes)
-- [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas)
-- [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas)
-- [Design: Core Domain Charts](https://github.com/core-domain-charts)
-- [DevOps Video Tutorials](https://github.com/antonputra/tutorials)
-- [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel)
-- [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
-- [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
-- [Docker Getting Started](https://github.com/docker/getting-started)
-- [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs)
-- [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
-- [Documentation Cacti](https://github.com/Cacti/documentation)
-- [Documentation Certbot](https://github.com/certbot/certbot)
-- [Documentation Chef](https://github.com/chef/chef-web-docs)
-- [Documentation CircleCI](https://github.com/circleci/circleci-docs)
-- [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh)
-- [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
-- [Documentation CoreDNS](https://github.com/coredns/coredns.io)
-- [Documentation Datadog](https://github.com/DataDog/documentation)
-- [Documentation Docker](https://github.com/docker/docs)
-- [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs)
-- [Documentation Flux](https://github.com/fluxcd/website)
-- [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc)
-- [Documentation GRR](https://github.com/google/grr-doc)
-- [Documentation Google GVisor](https://github.com/google/gvisor)
-- [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure)
-- [Documentation Grafana Loki](https://github.com/grafana/loki)
-- [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
-- [Documentation Helm](https://github.com/helm/helm-www)
-- [Documentation Kata Containers](https://github.com/kata-containers/kata-containers)
-- [Documentation Linode](https://github.com/linode/docs)
-- [Documentation OSV Scanner](https://github.com/google/osv-scanner)
-- [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io)
-- [Documentation Openshift](https://github.com/openshift/openshift-docs)
-- [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
-- [Documentation Prometheus](https://github.com/prometheus/docs)
-- [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
-- [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
-- [Documentation Puppet](https://github.com/puppetlabs/puppet-docs)
-- [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website)
-- [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs)
-- [Documentation Telegraf](https://github.com/influxdata/telegraf)
-- [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com)
-- [Documentation cfengine](https://github.com/cfengine/documentation)
-- [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
-- [Documentation juju](https://github.com/juju/juju)
-- [Documentation knative](https://github.com/knative/docs)
-- [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
-- [Documentation kubernetes](https://github.com/kubernetes/website)
-- [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets)
-- [Documentation pfsense (legacy)](https://github.com/pfsense/docs)
-- [Documentation pprof](https://github.com/google/pprof)
-- [Documentation rundeck](https://github.com/rundeck/docs)
-- [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
-- [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
-- [ElasticSearch Examples](https://github.com/elastic/examples)
-- [Excel Cheat Sheet](https://github.com/emanuelefavero/excel)
-- [FastAI Fastbook](https://github.com/fastai/fastbook)
-- [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet)
-- [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
-- [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev)
-- [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101)
-- [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4)
-- [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
-- [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph)
-- [Geo Data Science Book](https://github.com/gdsbook/book)
-- [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
-- [Globbing Cheat Sheet](https://github.com/begin/globbing)
-- [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide)
-- [Google DevOps Governance](https://github.com/google/devops-governance)
-- [Google Engineering Practices](https://github.com/google/eng-practices)
-- [How Programming Works](https://github.com/HowProgrammingWorks/Book)
-- [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
-- [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal)
-- [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews)
-- [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions)
-- [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews)
-- [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions)
-- [Interview Questions: Java](https://github.com/in28minutes/interview-guide)
-- [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions)
-- [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions)
-- [Interview Questions: System Design](https://github.com/shashank88/system_design)
-- [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture)
-- [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook)
-- [Jaeger Distributed Tracing](https://github.com/jaegertracing/documentation)
-- [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial)
-- [Javascript ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
-- [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
-- [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules)
-- [Kafka Architecture](https://github.com/anhthii/kafka-notes)
-- [Learn Regex](https://github.com/ziishaned/learn-regex)
-- [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud)
-- [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
-- [Learn Vim](https://github.com/iggredible/Learn-Vim)
-- [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
-- [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
-- [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path)
-- [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
-- [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
-- [Learning Path Senior Developer](https://github.com/joebew42/study-path)
-- [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
-- [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design)
-- [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
-- [Learning Path by Role](https://github.com/belatrix/learningPaths)
-- [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
-- [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path)
-- [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
-- [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial)
-- [Little Go Book](https://github.com/karlseguin/the-little-go-book)
-- [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book)
-- [Little Redis Book](https://github.com/karlseguin/the-little-redis-book)
-- [MDN accessibility](https://github.com/mdn/content)
-- [MDN api](https://github.com/mdn/content)
-- [MDN css](https://github.com/mdn/content)
-- [MDN demos](https://github.com/mdn/content)
-- [MDN events](https://github.com/mdn/content)
-- [MDN exslt](https://github.com/mdn/content)
-- [MDN guide](https://github.com/mdn/content)
-- [MDN html](https://github.com/mdn/content)
-- [MDN http](https://github.com/mdn/content)
-- [MDN javascript](https://github.com/mdn/content)
-- [MDN manifest](https://github.com/mdn/content)
-- [MDN mathml](https://github.com/mdn/content)
-- [MDN media](https://github.com/mdn/content)
-- [MDN opensearch](https://github.com/mdn/content)
-- [MDN performance](https://github.com/mdn/content)
-- [MDN privacy](https://github.com/mdn/content)
-- [MDN progressive_web_apps](https://github.com/mdn/content)
-- [MDN security](https://github.com/mdn/content)
-- [MDN svg](https://github.com/mdn/content)
-- [MDN text_fragments](https://github.com/mdn/content)
-- [MDN tutorials](https://github.com/mdn/content)
-- [MDN webdriver](https://github.com/mdn/content)
-- [MDN xml](https://github.com/mdn/content)
-- [MDN xpath](https://github.com/mdn/content)
-- [MDN xslt](https://github.com/mdn/content)
-- [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet)
-- [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center)
-- [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation)
-- [Markdown Architecture Decision Records](https://github.com/adr/madr)
-- [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
-- [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
-- [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet)
-- [Nature of Code](https://github.com/nature-of-code/noc-book-2023)
-- [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
-- [OS Tutorial](https://github.com/cfenollosa/os-tutorial)
-- [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide)
-- [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries)
-- [OpenSSL Architecture](https://github.com/openssl/web)
-- [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook)
-- [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
-- [Python Introcution: Byte of Python](https://github.com/swaroopch/byte-of-python)
-- [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
-- [Python Tutorial](https://github.com/Akuli/python-tutorial)
-- [Python pdb Tutorial](https://github.com/spiside/pdb-tutorial)
-- [RabbitMQ Client Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
-- [Reverse Shells](https://github.com/d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet)
-- [Runbooks AWS Incidents](https://github.com/aws-samples/aws-incident-response-playbooks)
-- [Runbooks Concept](https://github.com/iworkforthem/runbook)
-- [Runbooks Container Solutions](https://github.com/ContainerSolutions/runbooks)
-- [Runbooks Example](https://github.com/sstafford/ops_runbook)
-- [Runbooks Openshift](https://github.com/openshift/runbooks)
-- [Runbooks PagerDuty Incident Response](https://github.com/PagerDuty/incident-response-doc)
-- [Runbooks Pentesting](https://github.com/IlyasKadi/runbook)
-- [Runbooks Prometheus Operator](https://github.com/prometheus-operator/runbooks)
-- [Runbooks Security Incident](https://github.com/redar0n/incident-runbook)
-- [SAP Tutorials](https://github.com/sap-tutorials/Tutorials)
-- [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet)
-- [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture)
-- [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups)
-- [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot)
-- [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release)
-- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
-- [System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [Tekton 101](https://github.com/dewan-ahmed/Tekton101)
-- [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero)
-- [The Bread Code](https://github.com/hendricius/the-bread-code)
-- [The JS Way](https://github.com/thejsway/thejsway)
-- [TypeSpec API Generator](https://github.com/microsoft/typespec)
-- [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
-- [WTFJS](https://github.com/denysdovhan/wtfjs)
-- [Xapax Security](https://github.com/xapax/security)
-- [devhints.io](https://github.com/rstacruz/cheatsheets)
-- [eg Cheat Sheets](https://github.com/srsudar/eg)
-- [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
-- [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad)
-- [k8s Istio Tutorial](https://github.com/kelseyhightower/istio-ingress-tutorial)
-- [k8s NetworkPolicy Tutorial](https://github.com/networkpolicy/tutorial)
-- [k8s Nomand Tutorial](https://github.com/kelseyhightower/nomad-on-kubernetes)
-- [k8s Tekton Tutorial](https://github.com/harbur/tekton-tutorial)
-- [k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
-- [nginx Admin Handbook](https://github.com/trimstray/nginx-admins-handbook)
-- [reactnative.guide](https://github.com/react-made-native-easy/book)
-- [rsync Tutorial](https://github.com/johnjung/rsync_tutorial)
-
+ - [30s-of-code CSS](https://github.com/30-seconds/30-seconds-of-css)
+ - [30s-of-code Git](https://github.com/30-seconds/30-seconds-of-git)
+ - [30s-of-code JS](https://github.com/30-seconds/30-seconds-of-code)
+ - [30s-of-code Python](https://github.com/30-seconds/30-seconds-of-python)
+ - [AWS EKS Best Practices](https://github.com/aws/aws-eks-best-practices)
+ - [AWS EKS Workshop](https://github.com/aws-samples/eks-workshop-v2)
+ - [AWS ELB Best Practices](https://github.com/aws-elb-best-practices)
+ - [AWS S3 Python](https://github.com/nagwww/aws-s3-book)
+ - [AWS Serverless Workshop](https://github.com/aws-samples/aws-serverless-workshops)
+ - [AWSCookbook Security](https://github.com/AWSCookbook/Security)
+ - [Ansible Tutorial](https://github.com/leucos/ansible-tuto)
+ - [Architecture Books](https://github.com/mhadidg/software-architecture-books)
+ - [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record)
+ - [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
+ - [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns)
+ - [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns)
+ - [Awesome AWS Security](https://github.com/jassics/awesome-aws-security)
+ - [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture)
+ - [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses)
+ - [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet)
+ - [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security)
+ - [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
+ - [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql)
+ - [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+ - [Awesome OpenPolicyAgent](https://github.com/StyraInc/awesome-opa)
+ - [Awesome Programming Projects](https://github.com/practical-tutorials/project-based-learning)
+ - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
+ - [Awesome Python](https://github.com/vinta/awesome-python)
+ - [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+ - [Awesome Security](https://github.com/zbetcheckin/Security_list)
+ - [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security)
+ - [Azure Monitoring Baseline](https://github.com/Azure/azure-monitor-baseline-alerts)
+ - [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet)
+ - [Azure Security](https://github.com/MicrosoftDocs/security)
+ - [Backend Development Whitepaper](https://github.com/cheatsnake/backend-cheats)
+ - [Bash Handbook](https://github.com/denysdovhan/bash-handbook)
+ - [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook)
+ - [Bash by Example](https://github.com/cheatsnake/bash-scripts-by-example)
+ - [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
+ - [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML)
+ - [CSS Architecture](https://github.com/jareware/css-architecture)
+ - [Cloud Outages Index](https://github.com/lwindolf/cloud-outages)
+ - [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets)
+ - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
+ - [Cognitive Load](https://github.com/zakirullin/cognitive-load)
+ - [DDD Context Mapping](https://github.com/ddd-crew/context-mapping)
+ - [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates)
+ - [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process)
+ - [DDD by Examples](https://github.com/ddd-by-examples/library)
+ - [Databases Introduction](https://github.com/anhthii/database-notes)
+ - [Design: Aggregate Design Canvas](https://github.com/ddd-crew/aggregate-design-canvas)
+ - [Design: Bounded Context Canvas](https://github.com/ddd-crew/bounded-context-canvas)
+ - [Design: Core Domain Charts](https://github.com/core-domain-charts)
+ - [DevOps Video Tutorials](https://github.com/antonputra/tutorials)
+ - [DevSecOps Maturity Model](https://github.com/devsecopsmaturitymodel/DevSecOps-MaturityModel)
+ - [DevSecOps SLSA Framework](https://github.com/slsa-framework/slsa)
+ - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
+ - [Docker Getting Started](https://github.com/docker/getting-started)
+ - [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs)
+ - [Documentation ArgoCD](https://github.com/argoproj/argo-cd)
+ - [Documentation Cacti](https://github.com/Cacti/documentation)
+ - [Documentation Certbot](https://github.com/certbot/certbot)
+ - [Documentation Chef](https://github.com/chef/chef-web-docs)
+ - [Documentation CircleCI](https://github.com/circleci/circleci-docs)
+ - [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh)
+ - [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
+ - [Documentation CoreDNS](https://github.com/coredns/coredns.io)
+ - [Documentation Datadog](https://github.com/DataDog/documentation)
+ - [Documentation Docker](https://github.com/docker/docs)
+ - [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs)
+ - [Documentation Flux](https://github.com/fluxcd/website)
+ - [Documentation FreeBSD](https://github.com/freebsd/freebsd-doc)
+ - [Documentation GRR](https://github.com/google/grr-doc)
+ - [Documentation Google GVisor](https://github.com/google/gvisor)
+ - [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure)
+ - [Documentation Grafana Loki](https://github.com/grafana/loki)
+ - [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki)
+ - [Documentation Helm](https://github.com/helm/helm-www)
+ - [Documentation Kata Containers](https://github.com/kata-containers/kata-containers)
+ - [Documentation Linode](https://github.com/linode/docs)
+ - [Documentation OSV Scanner](https://github.com/google/osv-scanner)
+ - [Documentation OpenTelemetry](https://github.com/open-telemetry/opentelemetry.io)
+ - [Documentation Openshift](https://github.com/openshift/openshift-docs)
+ - [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs)
+ - [Documentation Prometheus](https://github.com/prometheus/docs)
+ - [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager)
+ - [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator)
+ - [Documentation Puppet](https://github.com/puppetlabs/puppet-docs)
+ - [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website)
+ - [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs)
+ - [Documentation Telegraf](https://github.com/influxdata/telegraf)
+ - [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com)
+ - [Documentation cfengine](https://github.com/cfengine/documentation)
+ - [Documentation docker-bench-security](https://github.com/docker/docker-bench-security)
+ - [Documentation juju](https://github.com/juju/juju)
+ - [Documentation knative](https://github.com/knative/docs)
+ - [Documentation kubebench](https://github.com/aquasecurity/kube-bench)
+ - [Documentation kubernetes](https://github.com/kubernetes/website)
+ - [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets)
+ - [Documentation pfsense (legacy)](https://github.com/pfsense/docs)
+ - [Documentation pprof](https://github.com/google/pprof)
+ - [Documentation rundeck](https://github.com/rundeck/docs)
+ - [Elastic Data Lake Architecture](https://github.com/gose/elastic-data-lake)
+ - [ElasticSearch Architecture](https://github.com/gose/elastic-architectures)
+ - [ElasticSearch Examples](https://github.com/elastic/examples)
+ - [Excel Cheat Sheet](https://github.com/emanuelefavero/excel)
+ - [FastAI Fastbook](https://github.com/fastai/fastbook)
+ - [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet)
+ - [Free Programming Books](https://github.com/EbookFoundation/free-programming-books)
+ - [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev)
+ - [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101)
+ - [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4)
+ - [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet)
+ - [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph)
+ - [Geo Data Science Book](https://github.com/gdsbook/book)
+ - [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)
+ - [Globbing Cheat Sheet](https://github.com/begin/globbing)
+ - [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide)
+ - [Google DevOps Governance](https://github.com/google/devops-governance)
+ - [Google Engineering Practices](https://github.com/google/eng-practices)
+ - [How Programming Works](https://github.com/HowProgrammingWorks/Book)
+ - [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+ - [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal)
+ - [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews)
+ - [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions)
+ - [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews)
+ - [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions)
+ - [Interview Questions: Java](https://github.com/in28minutes/interview-guide)
+ - [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions)
+ - [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions)
+ - [Interview Questions: System Design](https://github.com/shashank88/system_design)
+ - [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture)
+ - [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook)
+ - [Jaeger Distributed Tracing](https://github.com/jaegertracing/documentation)
+ - [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial)
+ - [Javascript ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
+ - [Javascript Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
+ - [Javascript NPM with ES Modules](https://github.com/transitive-bullshit/npm-es-modules)
+ - [Kafka Architecture](https://github.com/anhthii/kafka-notes)
+ - [Learn Regex](https://github.com/ziishaned/learn-regex)
+ - [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud)
+ - [Learn UML2](https://github.com/imalitavakoli/learn-uml2)
+ - [Learn Vim](https://github.com/iggredible/Learn-Vim)
+ - [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs)
+ - [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
+ - [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path)
+ - [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path)
+ - [Learning Path Functional Programming](https://github.com/imteekay/functional-programming-learning-path)
+ - [Learning Path Senior Developer](https://github.com/joebew42/study-path)
+ - [Learning Path Springboot Microservices](https://github.com/TechPrimers/learning-path-spring-boot-microservices)
+ - [Learning Path System Design](https://github.com/TechPrimers/learning-path-system-design)
+ - [Learning Path Thinkerhub](https://github.com/tinkerhub/TinkerHub-Learning-Paths)
+ - [Learning Path by Role](https://github.com/belatrix/learningPaths)
+ - [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path)
+ - [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path)
+ - [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+ - [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial)
+ - [Little Go Book](https://github.com/karlseguin/the-little-go-book)
+ - [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book)
+ - [Little Redis Book](https://github.com/karlseguin/the-little-redis-book)
+ - [MDN accessibility](https://github.com/mdn/content)
+ - [MDN api](https://github.com/mdn/content)
+ - [MDN css](https://github.com/mdn/content)
+ - [MDN demos](https://github.com/mdn/content)
+ - [MDN events](https://github.com/mdn/content)
+ - [MDN exslt](https://github.com/mdn/content)
+ - [MDN guide](https://github.com/mdn/content)
+ - [MDN html](https://github.com/mdn/content)
+ - [MDN http](https://github.com/mdn/content)
+ - [MDN javascript](https://github.com/mdn/content)
+ - [MDN manifest](https://github.com/mdn/content)
+ - [MDN mathml](https://github.com/mdn/content)
+ - [MDN media](https://github.com/mdn/content)
+ - [MDN opensearch](https://github.com/mdn/content)
+ - [MDN performance](https://github.com/mdn/content)
+ - [MDN privacy](https://github.com/mdn/content)
+ - [MDN progressive_web_apps](https://github.com/mdn/content)
+ - [MDN security](https://github.com/mdn/content)
+ - [MDN svg](https://github.com/mdn/content)
+ - [MDN text_fragments](https://github.com/mdn/content)
+ - [MDN tutorials](https://github.com/mdn/content)
+ - [MDN webdriver](https://github.com/mdn/content)
+ - [MDN xml](https://github.com/mdn/content)
+ - [MDN xpath](https://github.com/mdn/content)
+ - [MDN xslt](https://github.com/mdn/content)
+ - [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet)
+ - [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center)
+ - [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation)
+ - [Markdown Architecture Decision Records](https://github.com/adr/madr)
+ - [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist)
+ - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial)
+ - [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet)
+ - [Nature of Code](https://github.com/nature-of-code/noc-book-2023)
+ - [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
+ - [OS Tutorial](https://github.com/cfenollosa/os-tutorial)
+ - [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide)
+ - [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries)
+ - [OpenSSL Architecture](https://github.com/openssl/web)
+ - [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook)
+ - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+ - [Python Introcution: Byte of Python](https://github.com/swaroopch/byte-of-python)
+ - [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition)
+ - [Python Tutorial](https://github.com/Akuli/python-tutorial)
+ - [Python pdb Tutorial](https://github.com/spiside/pdb-tutorial)
+ - [RabbitMQ Client Tutorials](https://github.com/rabbitmq/rabbitmq-tutorials)
+ - [Reverse Shells](https://github.com/d4t4s3c/Offensive-Reverse-Shell-Cheat-Sheet)
+ - [Runbooks AWS Incidents](https://github.com/aws-samples/aws-incident-response-playbooks)
+ - [Runbooks Concept](https://github.com/iworkforthem/runbook)
+ - [Runbooks Container Solutions](https://github.com/ContainerSolutions/runbooks)
+ - [Runbooks Example](https://github.com/sstafford/ops_runbook)
+ - [Runbooks Openshift](https://github.com/openshift/runbooks)
+ - [Runbooks PagerDuty Incident Response](https://github.com/PagerDuty/incident-response-doc)
+ - [Runbooks Pentesting](https://github.com/IlyasKadi/runbook)
+ - [Runbooks Prometheus Operator](https://github.com/prometheus-operator/runbooks)
+ - [Runbooks Security Incident](https://github.com/redar0n/incident-runbook)
+ - [SAP Tutorials](https://github.com/sap-tutorials/Tutorials)
+ - [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet)
+ - [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture)
+ - [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups)
+ - [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot)
+ - [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release)
+ - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+ - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+ - [Tekton 101](https://github.com/dewan-ahmed/Tekton101)
+ - [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero)
+ - [The Bread Code](https://github.com/hendricius/the-bread-code)
+ - [The JS Way](https://github.com/thejsway/thejsway)
+ - [TypeSpec API Generator](https://github.com/microsoft/typespec)
+ - [Typescript Handbook](https://github.com/microsoft/TypeScript-Website)
+ - [WTFJS](https://github.com/denysdovhan/wtfjs)
+ - [Xapax Security](https://github.com/xapax/security)
+ - [devhints.io](https://github.com/rstacruz/cheatsheets)
+ - [eg Cheat Sheets](https://github.com/srsudar/eg)
+ - [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
+ - [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad)
+ - [k8s Istio Tutorial](https://github.com/kelseyhightower/istio-ingress-tutorial)
+ - [k8s NetworkPolicy Tutorial](https://github.com/networkpolicy/tutorial)
+ - [k8s Nomand Tutorial](https://github.com/kelseyhightower/nomad-on-kubernetes)
+ - [k8s Tekton Tutorial](https://github.com/harbur/tekton-tutorial)
+ - [k8s the hard way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+ - [nginx Admin Handbook](https://github.com/trimstray/nginx-admins-handbook)
+ - [reactnative.guide](https://github.com/react-made-native-easy/book)
+ - [rsync Tutorial](https://github.com/johnjung/rsync_tutorial)
