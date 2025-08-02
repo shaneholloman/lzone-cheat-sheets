@@ -128,13 +128,13 @@
     "github": "OWASP/CheatSheetSeries",
     "filePattern": "^cheatsheets/(.+)\\.md$",
     "category": "Security",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "eg Cheat Sheets": {
     "github": "srsudar/eg",
     "filePattern": "^eg/examples/([^/]+)\\.md$",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "Free Programming Books": {
     "github": "EbookFoundation/free-programming-books",
@@ -327,18 +327,26 @@
   },
   "Python Machine Learning": {
     "github": "rasbt/python-machine-learning-book-3rd-edition",
-    "filePattern": "^([^/]+)/README.md$"
+    "filePattern": "^([^/]+)/README.md$",
+    "category": "ML",
+    "type": "Book"
   },
   "IMDB Data in the Terminal": {
-    "github": "vvijayan1/imdb_data_on_terminal"
+    "github": "vvijayan1/imdb_data_on_terminal",
+    "category": "ML",
+    "type": "Tutorial"
   },
   "System Design 101": {
     "github": "ByteByteGoHq/system-design-101",
-    "filePattern": "^(README)\\.md$"
+    "filePattern": "^(README)\\.md$",
+    "category": "DevOps",
+    "type": "Interview"
   },
   "System Design Primer": {
     "github": "donnemartin/system-design-primer",
-    "filePattern": "^(README.*)\\.md$"
+    "filePattern": "^(README.*)\\.md$",
+    "category": "DevOps",
+    "type": "Interview"
   },
   "Cloud Outages Index": {
     "github": "lwindolf/cloud-outages",
@@ -347,7 +355,9 @@
   },
   "Learn To Cloud": {
     "github": "learntocloud/learn-to-cloud",
-    "filePattern": "^docs/(.*)/README.md$"
+    "filePattern": "^docs/(.*)/README.md$",
+    "type": "Tutorial",
+    "category": "DevOps"
   },
   "Google Cloud Guide": {
     "github": "mikeroyal/Google-Cloud-Guide",
@@ -387,7 +397,9 @@
   },
   "Xapax Security": {
     "github": "xapax/security",
-    "filePattern": "^docs/(.+)\\.md$"
+    "filePattern": "^docs/(.+)\\.md$",
+    "type": "Cheat Sheet",
+    "category": "Security"
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
@@ -725,7 +737,7 @@
   "Scalable SW Architecture": {
     "github": "Developer-Y/Scalable-Software-Architecture",
     "category": "Architecture",
-    "type": "List"
+    "type": "Awesome"
   },
   "CSS Architecture": {
     "github": "jareware/css-architecture",
@@ -744,7 +756,8 @@
   },
   "Documentation Telegraf": {
     "github": "influxdata/telegraf",
-    "type": "Documentation"
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Documentation Grafana Loki": {
     "github": "grafana/loki",
@@ -767,12 +780,12 @@
   "Excel Cheat Sheet": {
     "github": "emanuelefavero/excel",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "SRE Cheat Sheet": {
     "github": "anshudutta/sre-cheat-sheet",
     "category": "DevOps",
-    "type": "Cheat Sheets"
+    "type": "Cheat Sheet"
   },
   "MDN accessibility": {
     "github": "mdn/content",
@@ -1162,64 +1175,65 @@
   },
   "Learning Path k8s": {
     "github": "techiescamp/kubernetes-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "DevOps"
   },
   "Learning Path k8s (Microsoft)": {
     "github": "microsoft/kubernetes-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "DevOps"
   },
   "Learning Path FullStack Web Dev": {
     "github": "shovanch/fullstack-web-developer-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Functional Programming": {
     "github": "imteekay/functional-programming-learning-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Springboot Microservices": {
     "github": "TechPrimers/learning-path-spring-boot-microservices",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Thinkerhub": {
     "github": "tinkerhub/TinkerHub-Learning-Paths",
     "filePattern": "^content/(.+)\\.md$",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path by Role": {
-    "github": "belatrix/learningPaths",
-    "type": "LearningPath",
+    "github": "belatrix/Learning Paths",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path System Design": {
     "github": "TechPrimers/learning-path-system-design",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Architecture"
   },
   "Learning Path Senior Developer": {
     "github": "joebew42/study-path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path Data Science": {
     "github": "myarist/Data-Science-Learning-Path",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Learning Path AI Expert": {
     "github": "AMAI-GmbH/AI-Expert-Roadmap",
-    "type": "LearningPath",
+    "type": "Learning Path",
     "category": "Development"
   },
   "Documentation TravisCI": {
     "github": "travis-ci/docs-travis-ci-com",
     "filePattern": "^user/(.+).md$",
-    "type": "Documentation"
+    "type": "Documentation",
+    "category": "DevOps"
   },
   "Documentation CloudFoundry Bosh": {
     "github": "cloudfoundry/docs-bosh",
@@ -1365,7 +1379,153 @@
   },
   "ArchiMate CheatSheet": {
     "github": "SixArm/archimate-examples",
-    "type": "CheatSheet",
+    "type": "Cheat Sheet",
     "category": "Architecture"
+  },
+  "arc42 Documentation": {
+    "github": "arc42/docs.arc42.org-site",
+    "type": "Documentation",
+    "category": "Architecture"
+  },
+  "awesome Architecture": {
+    "github": "mehdihadeli/awesome-software-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
+  },
+  "Learning Path Software Design": {
+    "github": "stemmlerjs/software-design-and-architecture-roadmap",
+    "type": "Learning Path",
+    "category": "Development"
+  },
+  "Solution Architecture Links": {
+    "github": "unlight/solution-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
+  },
+  "nocomplexity Architecture Playbook": {
+    "github": "nocomplexity/ArchitecturePlaybook",
+    "type": "Documentation",
+    "category": "Architecture"
+  },
+  "Awesome Clean Architecture": {
+    "github": "dgomezs/awesome-clean-architecture",
+    "type": "Awesome",
+    "category": "Architecture"
+  },
+  "Feature Sliced Frontend Design": {
+    "github": "feature-sliced/documentation",
+    "type": "Tutorial",
+    "category": "Architecture",
+    "filePattern": "^i18n/en/docusaurus-plugin-content-docs/current/get-started/(tutorial).md$"
+  },
+  "What is Enterprise Architecture": {
+    "github": "justinamiller/EnterpriseArchitecture",
+    "type": "Documentation",
+    "category": "Architecture"
+  },
+  "Tomato SW Architecture": {
+    "github": "sivaprasadreddy/tomato-architecture",
+    "type": "Tutorial",
+    "category": "Architecture"
+  },
+  "Monitoring with Prometheus": {
+    "github": "psibi/prometheus",
+    "type": "Book",
+    "category": "DevOps"
+  },
+  "Zabbix Book": {
+    "github": "Trikke76/Zabbix-Book",
+    "type": "Book",
+    "category": "DevOps"
+  },
+  "devinterview.io Data Engineer": {
+    "github": "Devinterview-io/data-engineer-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Data Analyst": {
+    "github": "Devinterview-io/data-analyst-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io Dimensionality": {
+    "github": "Devinterview-io/curse-of-dimensionality-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io Apache Spark": {
+    "github": "Devinterview-io/apache-spark-interview-questions",
+    "type": "Interview",
+    "category": "ML"
+  },
+  "devinterview.io XML": {
+    "github": "https://github.com/Devinterview-io/xml-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Architecture": {
+    "github": "Devinterview-io/software-architecture-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io SOA": {
+    "github": "Devinterview-io/service-oriented-architecture-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io Microservices": {
+    "github": "Devinterview-io/microservices-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io NOSQL": {
+    "github": "Devinterview-io/nosql-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Loadbalancing": {
+    "github": "Devinterview-io/load-balancing-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io Middleware": {
+    "github": "Devinterview-io/layering-and-middleware-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io Docker": {
+    "github": "Devinterview-io/docker-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  }, 
+  "devinterview.io DDD": {
+    "github": "Devinterview-io/domain-driven-design-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io kubernetes": {
+    "github": "Devinterview-io/kubernetes-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io CAP theorem": {
+    "github": "Devinterview-io/cap-theorem-interview-questions",
+    "type": "Interview",
+    "category": "Architecture"
+  },
+  "devinterview.io availability": {
+    "github": "Devinterview-io/availability-and-reliability-interview-questions",
+    "type": "Interview",
+    "category": "DevOps"
+  },
+  "devinterview.io AWS": {
+    "github": "Devinterview-io/aws-interview-questions",
+    "type": "Interview",
+    "category": "Cloud"
+  },
+  "devinterview.io Azure": {
+    "github": "Devinterview-io/azure-interview-questions",
+    "type": "Interview",
+    "category": "Cloud"
   }
 }
