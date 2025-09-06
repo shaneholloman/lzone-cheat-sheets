@@ -366,26 +366,26 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐169 | 📄 Documentation | Architecture | 
 | [Awesome AWS Security](https://github.com/jassics/awesome-aws-security) | ⭐1427 | 👍 Awesome | Security | 
 | [Awesome Azure Architecture](https://github.com/lukemurraynz/awesome-azure-architecture) | ⭐1613 | 👍 Awesome | Cloud | 
-| [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses) | ⭐61918 | 👍 Awesome | Programming | 
-| [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet) | ⭐7877 | 👍 Awesome | Programming | 
+| [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses) | ⭐62573 | 👍 Awesome | Programming | 
+| [Awesome Cheat Sheets](https://github.com/detailyang/awesome-cheatsheet) | ⭐7933 | 👍 Awesome | Programming | 
 | [Awesome Clean Architecture](https://github.com/dgomezs/awesome-clean-architecture) | ⭐unknown | 👍 Awesome | Architecture | 
 | [Awesome Cloud Security](https://github.com/4ndersonLin/awesome-cloud-security) | ⭐2226 | 👍 Awesome | Security | 
-| [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns) | ⭐43591 | 👍 Awesome | Architecture | 
-| [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) | ⭐14785 | 👍 Awesome | Programming | 
-| [Awesome OSINT](https://github.com/jivoi/awesome-osint) | ⭐22180 | 👍 Awesome | Security | 
+| [Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns) | ⭐43945 | 👍 Awesome | Architecture | 
+| [Awesome GraphQL](https://github.com/chentsulin/awesome-graphql) | ⭐14805 | 👍 Awesome | Programming | 
+| [Awesome OSINT](https://github.com/jivoi/awesome-osint) | ⭐22611 | 👍 Awesome | Security | 
 | [Awesome OpenPolicyAgent](https://github.com/StyraInc/awesome-opa) | ⭐830 | 👍 Awesome | Security | 
 | [Awesome Programming Projects](https://github.com/practical-tutorials/project-based-learning) | ⭐237683 | 📄 Documentation | Programming | 
-| [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | ⭐63963 | 👍 Awesome | Programming | 
-| [Awesome Python](https://github.com/vinta/awesome-python) | ⭐253269 | 👍 Awesome | Programming | 
-| [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) | ⭐63655 | 👍 Awesome | Architecture | 
+| [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) | ⭐65700 | 👍 Awesome | Programming | 
+| [Awesome Python](https://github.com/vinta/awesome-python) | ⭐257910 | 👍 Awesome | Programming | 
+| [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) | ⭐64913 | 👍 Awesome | Architecture | 
 | [Awesome Security](https://github.com/zbetcheckin/Security_list) | ⭐1811 | 👍 Awesome | Security | 
 | [Awesome k8s Security](https://github.com/magnologan/awesome-k8s-security) | ⭐1973 | 👍 Awesome | Security | 
 | [Azure Monitoring Baseline](https://github.com/Azure/azure-monitor-baseline-alerts) | ⭐251 | 📄 Documentation | Cloud | 
 | [Azure Powershell](https://github.com/andreipintica/Azure-PowerShell-CheatSheet) | ⭐106 | 📓 Cheat Sheet | DevOps | 
 | [Azure Security](https://github.com/MicrosoftDocs/security) | ⭐236 | 📄 Documentation | Security | 
 | [Backend Development Whitepaper](https://github.com/cheatsnake/backend-cheats) | ⭐3512 | 📕 Book | Programming | 
-| [Bash Handbook](https://github.com/denysdovhan/bash-handbook) | ⭐5883 | 📕 Book | DevOps | 
-| [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook) | ⭐254 | 📓 Cheat Sheet | DevOps | 
+| [Bash Handbook](https://github.com/denysdovhan/bash-handbook) | ⭐5893 | 📕 Book | DevOps | 
+| [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook) | ⭐255 | 📓 Cheat Sheet | DevOps | 
 | [Bash by Example](https://github.com/cheatsnake/bash-scripts-by-example) | ⭐42 | 📓 Cheat Sheet | DevOps | 
 | [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | ⭐2505 | 📄 Documentation | Programming | 
 | [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML) | ⭐6843 | 📄 Documentation | Architecture | 
@@ -393,7 +393,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Cloud Outages Index](https://github.com/lwindolf/cloud-outages) | ⭐2 | 📄 Documentation | DevOps | 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐128 | 📓 Cheat Sheet | DevOps | 
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐unknown | 📄 Documentation | Development | 
-| [Cognitive Load](https://github.com/zakirullin/cognitive-load) | ⭐7204 | 💡 Tutorial | Programming | 
+| [Cognitive Load](https://github.com/zakirullin/cognitive-load) | ⭐10196 | 💡 Tutorial | Programming | 
 | [DDD Context Mapping](https://github.com/ddd-crew/context-mapping) | ⭐1674 | 📄 Documentation | Architecture | 
 | [DDD Miro Templates](https://github.com/ddd-crew/virtual-modelling-templates) | ⭐83 | 📄 Documentation | Architecture | 
 | [DDD Starter Modelling](https://github.com/ddd-crew/ddd-starter-modelling-process) | ⭐5287 | 📄 Documentation | Architecture | 
@@ -457,17 +457,17 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2644 | 📄 Documentation | DevOps | 
 | [Everything curl](https://github.com/curl/everything-curl) | ⭐unknown | 📕 Book | DevOps | 
 | [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
-| [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐23512 | 📕 Book | ML | 
+| [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐23706 | 📕 Book | ML | 
 | [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9887 | 📓 Cheat Sheet | Web | 
 | [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐unknown | 💡 Tutorial | Architecture | 
-| [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐364343 | 📕 Book | Development | 
+| [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐367217 | 📕 Book | Development | 
 | [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐108556 | 📓 Cheat Sheet | SaaS | 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3547 | 📄 Documentation | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐118 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐17 | 📓 Cheat Sheet | DevOps | 
 | [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐350 | 📕 Book | ML | 
-| [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) | ⭐51836 | 📓 Cheat Sheet | Programming | 
+| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐351 | 📕 Book | ML | 
+| [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) | ⭐52297 | 📓 Cheat Sheet | Programming | 
 | [Globbing Cheat Sheet](https://github.com/begin/globbing) | ⭐157 | 📓 Cheat Sheet | DevOps | 
 | [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide) | ⭐170 | 📓 Cheat Sheet | DevOps | 
 | [Google DevOps Governance](https://github.com/google/devops-governance) | ⭐83 | 📄 Documentation | DevOps | 
@@ -476,15 +476,15 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐unknown | 📄 Documentation | Security | 
 | [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal) | ⭐7 | 💡 Tutorial | ML | 
 | [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews) | ⭐unknown | 📓 Cheat Sheet | Development | 
-| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐11985 | 💬 Interview | ML | 
-| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐9419 | 💬 Interview | ML | 
-| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐3432 | 💬 Interview | Development | 
+| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12049 | 💬 Interview | ML | 
+| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐9453 | 💬 Interview | ML | 
+| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐3530 | 💬 Interview | Development | 
 | [Interview Questions: Java](https://github.com/in28minutes/interview-guide) | ⭐305 | 💬 Interview | Development | 
-| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5181 | 💬 Interview | DevOps | 
-| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1574 | 💬 Interview | ML | 
-| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9075 | 💬 Interview | Architecture | 
-| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐2996 | 💬 Interview | Architecture | 
-| [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook) | ⭐1615 | 📕 Book | Development | 
+| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5196 | 💬 Interview | DevOps | 
+| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1581 | 💬 Interview | ML | 
+| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9107 | 💬 Interview | Architecture | 
+| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐3038 | 💬 Interview | Architecture | 
+| [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook) | ⭐1616 | 📕 Book | Development | 
 | [Jaeger Distributed Tracing](https://github.com/jaegertracing/documentation) | ⭐79 | 📄 Documentation | DevOps | 
 | [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial) | ⭐16766 | 📄 Documentation | Programming | 
 | [Javascript ES6 Cheatsheet](https://github.com/DrkSephy/es6-cheatsheet) | ⭐13367 | 📓 Cheat Sheet | Programming | 
@@ -493,12 +493,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Kafka Architecture](https://github.com/anhthii/kafka-notes) | ⭐102 | 📄 Documentation | Architecture | 
 | [LZone Cheat Sheets](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐316 | CheatSheet | DevOps | 
 | [Learn CLI text processing](https://github.com/learnbyexample/Command-line-text-processing) | ⭐unknown | 💡 Tutorial | DevOps | 
-| [Learn Regex](https://github.com/ziishaned/learn-regex) | ⭐46049 | 📓 Cheat Sheet | Programming | 
+| [Learn Regex](https://github.com/ziishaned/learn-regex) | ⭐46082 | 📓 Cheat Sheet | Programming | 
 | [Learn To Cloud](https://github.com/learntocloud/learn-to-cloud) | ⭐4946 | 💡 Tutorial | DevOps | 
 | [Learn UML2](https://github.com/imalitavakoli/learn-uml2) | ⭐120 | 📕 Book | Architecture | 
-| [Learn Vim](https://github.com/iggredible/Learn-Vim) | ⭐14573 | 💡 Tutorial | DevOps | 
+| [Learn Vim](https://github.com/iggredible/Learn-Vim) | ⭐14623 | 💡 Tutorial | DevOps | 
 | [Learn sed](https://github.com/dohlee/learn-sed) | ⭐unknown | 💡 Tutorial | DevOps | 
-| [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs) | ⭐11948 | 💡 Tutorial | Programming | 
+| [LearnXinYMinutes](https://github.com/adambard/learnxinyminutes-docs) | ⭐11991 | 💡 Tutorial | Programming | 
 | [Learning Path AI Expert](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path Data Science](https://github.com/myarist/Data-Science-Learning-Path) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path FullStack Web Dev](https://github.com/shovanch/fullstack-web-developer-path) | ⭐3457 | 📚 Learning Path | Development | 
@@ -511,12 +511,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Learning Path by Role](https://github.com/belatrix/Learning Paths) | ⭐unknown | 📚 Learning Path | Development | 
 | [Learning Path k8s](https://github.com/techiescamp/kubernetes-learning-path) | ⭐7154 | 📚 Learning Path | DevOps | 
 | [Learning Path k8s (Microsoft)](https://github.com/microsoft/kubernetes-learning-path) | ⭐386 | 📚 Learning Path | DevOps | 
-| [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐424996 | 💡 Tutorial | Programming | 
+| [Learning freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | ⭐426964 | 💡 Tutorial | Programming | 
 | [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) | ⭐unknown | 📄 Documentation | Development | 
 | [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial) | ⭐2718 | 📄 Documentation | Programming | 
-| [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2258 | 📕 Book | Development | 
-| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1496 | 📕 Book | Development | 
-| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1455 | 📕 Book | Development | 
+| [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2270 | 📕 Book | Development | 
+| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1497 | 📕 Book | Development | 
+| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1458 | 📕 Book | Development | 
 | [MDN accessibility](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
 | [MDN api](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
 | [MDN css](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
@@ -546,7 +546,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1924 | 📄 Documentation | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1861 | 📄 Documentation | DevOps | 
 | [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐1767 | 📓 Cheat Sheet | Architecture | 
-| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2885 | 📄 Documentation | DevOps | 
+| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2893 | 📄 Documentation | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐24983 | 📄 Documentation | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐unknown | 📕 Book | DevOps | 
 | [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet) | ⭐14135 | 📓 Cheat Sheet | Programming | 
@@ -554,10 +554,10 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Network Segmentation Cheat Sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet) | ⭐3380 | 📓 Cheat Sheet | DevOps | 
 | [OS Tutorial](https://github.com/cfenollosa/os-tutorial) | ⭐28608 | 📄 Documentation | Programming | 
 | [OSS Vulnerability Guide](https://github.com/google/oss-vulnerability-guide) | ⭐137 | 📓 Cheat Sheet | Security | 
-| [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries) | ⭐30003 | 📓 Cheat Sheet | Security | 
+| [OWASP Cheat Sheets Series](https://github.com/OWASP/CheatSheetSeries) | ⭐30194 | 📓 Cheat Sheet | Security | 
 | [OpenSSL Architecture](https://github.com/openssl/web) | ⭐54 | 📄 Documentation | Architecture | 
 | [Puppet Handbook](https://github.com/abhishekjt/puppet-handbook) | ⭐unknown | 📕 Book | DevOps | 
-| [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) | ⭐39791 | 📕 Book | DevOps | 
+| [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) | ⭐40082 | 📕 Book | DevOps | 
 | [Python Introcution: Byte of Python](https://github.com/swaroopch/byte-of-python) | ⭐2387 | 📕 Book | DevOps | 
 | [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book-3rd-edition) | ⭐4864 | 📕 Book | ML | 
 | [Python Tutorial](https://github.com/Akuli/python-tutorial) | ⭐1469 | 📕 Book | DevOps | 
@@ -585,19 +585,19 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Tekton 101](https://github.com/dewan-ahmed/Tekton101) | ⭐9 | 💡 Tutorial | DevOps | 
 | [Terraform Zero to Hero](https://github.com/iam-veeramalla/terraform-zero-to-hero) | ⭐unknown | 📄 Documentation | DevOps | 
 | [The Bread Code](https://github.com/hendricius/the-bread-code) | ⭐unknown | 📕 Book | DevOps | 
-| [The JS Way](https://github.com/thejsway/thejsway) | ⭐7907 | 📕 Book | Development | 
+| [The JS Way](https://github.com/thejsway/thejsway) | ⭐7903 | 📕 Book | Development | 
 | [Tomato SW Architecture](https://github.com/sivaprasadreddy/tomato-architecture) | ⭐unknown | 💡 Tutorial | Architecture | 
 | [Tutorial RabbitMQ](https://github.com/Frodo-Web/frodo-tips) | ⭐unknown | 💡 Tutorial | DevOps | 
 | [TypeSpec API Generator](https://github.com/microsoft/typespec) | ⭐unknown | 📄 Documentation | Architecture | 
-| [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2361 | 📕 Book | Development | 
+| [Typescript Handbook](https://github.com/microsoft/TypeScript-Website) | ⭐2378 | 📕 Book | Development | 
 | [Video Tutorials](https://github.com/lwindolf/lzone-cheat-sheets) | ⭐316 | 💡 Tutorial | DevOps | 
-| [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐36726 | 📕 Book | Programming | 
+| [WTFJS](https://github.com/denysdovhan/wtfjs) | ⭐37016 | 📕 Book | Programming | 
 | [What is Enterprise Architecture](https://github.com/justinamiller/EnterpriseArchitecture) | ⭐unknown | 📄 Documentation | Architecture | 
 | [Xapax Security](https://github.com/xapax/security) | ⭐1007 | 📓 Cheat Sheet | Security | 
 | [Zabbix Book](https://github.com/Trikke76/Zabbix-Book) | ⭐unknown | 📕 Book | DevOps | 
 | [arc42 Documentation](https://github.com/arc42/docs.arc42.org-site) | ⭐unknown | 📄 Documentation | Architecture | 
 | [awesome Architecture](https://github.com/mehdihadeli/awesome-software-architecture) | ⭐unknown | 👍 Awesome | Architecture | 
-| [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14147 | 📓 Cheat Sheet | DevOps | 
+| [devhints.io](https://github.com/rstacruz/cheatsheets) | ⭐14219 | 📓 Cheat Sheet | DevOps | 
 | [devinterview.io AWS](https://github.com/Devinterview-io/aws-interview-questions) | ⭐unknown | 💬 Interview | Cloud | 
 | [devinterview.io Apache Spark](https://github.com/Devinterview-io/apache-spark-interview-questions) | ⭐unknown | 💬 Interview | ML | 
 | [devinterview.io Architecture](https://github.com/Devinterview-io/software-architecture-interview-questions) | ⭐unknown | 💬 Interview | Architecture | 
@@ -616,7 +616,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [devinterview.io XML](https://github.com/https://github.com/Devinterview-io/xml-interview-questions) | ⭐unknown | 💬 Interview | DevOps | 
 | [devinterview.io availability](https://github.com/Devinterview-io/availability-and-reliability-interview-questions) | ⭐unknown | 💬 Interview | DevOps | 
 | [devinterview.io kubernetes](https://github.com/Devinterview-io/kubernetes-interview-questions) | ⭐unknown | 💬 Interview | DevOps | 
-| [eg Cheat Sheets](https://github.com/srsudar/eg) | ⭐1929 | 📓 Cheat Sheet | DevOps | 
+| [eg Cheat Sheets](https://github.com/srsudar/eg) | ⭐1941 | 📓 Cheat Sheet | DevOps | 
 | [golang Cheat Sheet](https://github.com/a8m/golang-cheat-sheet) | ⭐8681 | 📓 Cheat Sheet | Programming | 
 | [k8s CKAD Tutorial](https://github.com/madhank93/learn-k8s-ckad) | ⭐28 | 💡 Tutorial | DevOps | 
 | [k8s Istio Tutorial](https://github.com/kelseyhightower/istio-ingress-tutorial) | ⭐323 | 💡 Tutorial | DevOps | 
