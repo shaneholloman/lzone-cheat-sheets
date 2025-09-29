@@ -360,7 +360,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [ArchiMate CheatSheet](https://github.com/SixArm/archimate-examples) | ⭐unknown | 📓 Cheat Sheet | Architecture | 
 | [ArchiMate Intro](https://github.com/yasenstar/ArchiMetal_Practice) | ⭐unknown | 💡 Tutorial | Architecture | 
 | [Architecture Books](https://github.com/mhadidg/software-architecture-books) | ⭐10383 | 👍 Awesome | Architecture | 
-| [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐13766 | 📄 Documentation | Architecture | 
+| [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) | ⭐14117 | 📄 Documentation | Architecture | 
 | [Architecture Domain Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon) | ⭐13884 | 📄 Documentation | Architecture | 
 | [Architecture Enterprise Patterns](https://github.com/chanakaudaya/solution-architecture-patterns) | ⭐3423 | 📄 Documentation | Architecture | 
 | [Architecture Microservices](https://github.com/rodrigorodrigues/microservices-design-patterns) | ⭐171 | 📄 Documentation | Architecture | 
@@ -388,8 +388,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Bash Streams Handbook](https://github.com/miguelmota/bash-streams-handbook) | ⭐255 | 📓 Cheat Sheet | DevOps | 
 | [Bash by Example](https://github.com/cheatsnake/bash-scripts-by-example) | ⭐42 | 📓 Cheat Sheet | DevOps | 
 | [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python) | ⭐2508 | 📄 Documentation | Programming | 
-| [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML) | ⭐6843 | 📄 Documentation | Architecture | 
-| [CSS Architecture](https://github.com/jareware/css-architecture) | ⭐2584 | 📓 Cheat Sheet | Architecture | 
+| [C4-PlantUML Documentation](https://github.com/plantuml-stdlib/C4-PlantUML) | ⭐6928 | 📄 Documentation | Architecture | 
+| [CSS Architecture](https://github.com/jareware/css-architecture) | ⭐2583 | 📓 Cheat Sheet | Architecture | 
 | [Cloud Outages Index](https://github.com/lwindolf/cloud-outages) | ⭐2 | 📄 Documentation | DevOps | 
 | [Cloud Provider Cheat Sheets](https://github.com/JeffDeCola/my-cheat-sheets) | ⭐128 | 📓 Cheat Sheet | DevOps | 
 | [Coding Interview University](https://github.com/jwasham/coding-interview-university) | ⭐unknown | 📄 Documentation | Development | 
@@ -409,7 +409,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Docker Getting Started](https://github.com/docker/getting-started) | ⭐3015 | 📓 Cheat Sheet | DevOps | 
 | [Documentation Ansible](https://github.com/ansible/ansible-documentation) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐20263 | 📄 Documentation | DevOps | 
+| [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐20757 | 📄 Documentation | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐63 | 📄 Documentation | DevOps | 
 | [Documentation Certbot](https://github.com/certbot/certbot) | ⭐32370 | 📄 Documentation | DevOps | 
 | [Documentation Chef](https://github.com/chef/chef-web-docs) | ⭐unknown | 📄 Documentation | DevOps | 
@@ -425,8 +425,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation GRR](https://github.com/google/grr-doc) | ⭐306 | 📄 Documentation | Security | 
 | [Documentation Google GVisor](https://github.com/google/gvisor) | ⭐16798 | 📄 Documentation | Security | 
 | [Documentation Google OSFIR](https://github.com/google/osdfir-infrastructure) | ⭐108 | 📄 Documentation | Security | 
-| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐26128 | 📄 Documentation | DevOps | 
-| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐26128 | 📄 Documentation | DevOps | 
+| [Documentation Grafana Loki](https://github.com/grafana/loki) | ⭐26597 | 📄 Documentation | DevOps | 
+| [Documentation Grafana LokiStack Operator](https://github.com/grafana/loki) | ⭐26597 | 📄 Documentation | DevOps | 
 | [Documentation Helm](https://github.com/helm/helm-www) | ⭐221 | 📄 Documentation | DevOps | 
 | [Documentation Kata Containers](https://github.com/kata-containers/kata-containers) | ⭐6557 | 📄 Documentation | Security | 
 | [Documentation Linode](https://github.com/linode/docs) | ⭐1386 | 📄 Documentation | SaaS | 
@@ -436,18 +436,18 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Powershell](https://github.com/MicrosoftDocs/PowerShell-Docs) | ⭐2267 | 📄 Documentation | DevOps | 
 | [Documentation Prometheus](https://github.com/prometheus/docs) | ⭐696 | 📄 Documentation | DevOps | 
 | [Documentation Prometheus Alertmanager](https://github.com/prometheus/alertmanager) | ⭐7212 | 📄 Documentation | DevOps | 
-| [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9574 | 📄 Documentation | DevOps | 
+| [Documentation Prometheus Operator](https://github.com/prometheus-operator/prometheus-operator) | ⭐9655 | 📄 Documentation | DevOps | 
 | [Documentation Puppet](https://github.com/puppetlabs/puppet-docs) | ⭐221 | 📄 Documentation | DevOps | 
 | [Documentation RabbitMQ](https://github.com/rabbitmq/rabbitmq-website) | ⭐1011 | 📄 Documentation | DevOps | 
 | [Documentation RedisLabs](https://github.com/RedisLabs/redislabs-docs) | ⭐unknown | 📄 Documentation | DevOps | 
-| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16072 | 📄 Documentation | DevOps | 
+| [Documentation Telegraf](https://github.com/influxdata/telegraf) | ⭐16280 | 📄 Documentation | DevOps | 
 | [Documentation TravisCI](https://github.com/travis-ci/docs-travis-ci-com) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation cfengine](https://github.com/cfengine/documentation) | ⭐36 | 📄 Documentation | DevOps | 
-| [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9444 | 📄 Documentation | Security | 
+| [Documentation docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐9490 | 📄 Documentation | Security | 
 | [Documentation juju](https://github.com/juju/juju) | ⭐2527 | 📄 Documentation | DevOps | 
 | [Documentation knative](https://github.com/knative/docs) | ⭐4815 | 📄 Documentation | DevOps | 
-| [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7619 | 📄 Documentation | Security | 
-| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐4956 | 📄 Documentation | DevOps | 
+| [Documentation kubebench](https://github.com/aquasecurity/kube-bench) | ⭐7731 | 📄 Documentation | Security | 
+| [Documentation kubernetes](https://github.com/kubernetes/website) | ⭐5014 | 📄 Documentation | DevOps | 
 | [Documentation kubeseal](https://github.com/bitnami-labs/sealed-secrets) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation pfsense (legacy)](https://github.com/pfsense/docs) | ⭐unknown | 📄 Documentation | DevOps | 
 | [Documentation pprof](https://github.com/google/pprof) | ⭐8646 | 📄 Documentation | Programming | 
@@ -457,12 +457,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [ElasticSearch Examples](https://github.com/elastic/examples) | ⭐2642 | 📄 Documentation | DevOps | 
 | [Embedded New Testament](https://github.com/theEmbeddedGeorge/theEmbeddedNewTestament.github.io) | ⭐unknown | 📄 Documentation | Development | 
 | [Everything curl](https://github.com/curl/everything-curl) | ⭐unknown | 📕 Book | DevOps | 
-| [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐4 | 📓 Cheat Sheet | DevOps | 
+| [Excel Cheat Sheet](https://github.com/emanuelefavero/excel) | ⭐5 | 📓 Cheat Sheet | DevOps | 
 | [FastAI Fastbook](https://github.com/fastai/fastbook) | ⭐23706 | 📕 Book | ML | 
-| [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9887 | 📓 Cheat Sheet | Web | 
+| [Favicon Cheat Sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) | ⭐9882 | 📓 Cheat Sheet | Web | 
 | [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐unknown | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐367217 | 📕 Book | Development | 
-| [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐108556 | 📓 Cheat Sheet | SaaS | 
+| [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐112775 | 📓 Cheat Sheet | SaaS | 
 | [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3547 | 📄 Documentation | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐118 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐17 | 📓 Cheat Sheet | DevOps | 
@@ -518,35 +518,35 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2270 | 📕 Book | Development | 
 | [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1497 | 📕 Book | Development | 
 | [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1458 | 📕 Book | Development | 
-| [MDN accessibility](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN api](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN css](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN demos](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN events](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN exslt](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN guide](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN html](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN http](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN javascript](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN manifest](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN mathml](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN media](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN opensearch](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN performance](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN privacy](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN security](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN svg](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN text_fragments](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN tutorials](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN webdriver](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN xml](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN xpath](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
-| [MDN xslt](https://github.com/mdn/content) | ⭐9666 | 📄 Documentation | Web | 
+| [MDN accessibility](https://github.com/mdn/content) | ⭐9756 | 📄 Documentation | Web | 
+| [MDN api](https://github.com/mdn/content) | ⭐9756 | 📄 Documentation | Web | 
+| [MDN css](https://github.com/mdn/content) | ⭐9756 | 📄 Documentation | Web | 
+| [MDN demos](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN events](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN exslt](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN guide](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN html](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN http](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN javascript](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN manifest](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN mathml](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN media](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN opensearch](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN performance](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN privacy](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN progressive_web_apps](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN security](https://github.com/mdn/content) | ⭐9757 | 📄 Documentation | Web | 
+| [MDN svg](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN text_fragments](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN tutorials](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN webdriver](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN xml](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN xpath](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
+| [MDN xslt](https://github.com/mdn/content) | ⭐9760 | 📄 Documentation | Web | 
 | [MITM Cheat Sheet](https://github.com/frostbits-security/MITM-cheatsheet) | ⭐985 | 📓 Cheat Sheet | Security | 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1935 | 📄 Documentation | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1867 | 📄 Documentation | DevOps | 
-| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐1767 | 📓 Cheat Sheet | Architecture | 
+| [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐1823 | 📓 Cheat Sheet | Architecture | 
 | [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2893 | 📄 Documentation | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25096 | 📄 Documentation | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐unknown | 📕 Book | DevOps | 
@@ -575,12 +575,12 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Runbooks Prometheus Operator](https://github.com/prometheus-operator/runbooks) | ⭐107 | 📄 Documentation | DevOps | 
 | [Runbooks Security Incident](https://github.com/redar0n/incident-runbook) | ⭐51 | 🤖 Runbook | Security | 
 | [SAP Tutorials](https://github.com/sap-tutorials/Tutorials) | ⭐823 | 📄 Documentation | DevOps | 
-| [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐54 | 📓 Cheat Sheet | DevOps | 
-| [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2066 | 👍 Awesome | Architecture | 
+| [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐55 | 📓 Cheat Sheet | DevOps | 
+| [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2071 | 👍 Awesome | Architecture | 
 | [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4624 | 📄 Documentation | Security | 
 | [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐unknown | 👍 Awesome | Architecture | 
 | [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | ⭐unknown | 📄 Documentation | Architecture | 
-| [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release) | ⭐620 | 📄 Documentation | Architecture | 
+| [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release) | ⭐658 | 📄 Documentation | Architecture | 
 | [System Design 101](https://github.com/ByteByteGoHq/system-design-101) | ⭐76658 | 💬 Interview | DevOps | 
 | [System Design Primer](https://github.com/donnemartin/system-design-primer) | ⭐320830 | 💬 Interview | DevOps | 
 | [Tekton 101](https://github.com/dewan-ahmed/Tekton101) | ⭐9 | 💡 Tutorial | DevOps | 
