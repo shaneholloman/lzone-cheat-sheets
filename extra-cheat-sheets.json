@@ -604,103 +604,103 @@
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Cheat Sheet",
     "category": "Security",
-    "stars": 1024,
-    "forks": 516,
-    "last_updated": "2026-01-24"
+    "stars": 1026,
+    "forks": 514,
+    "last_updated": "2026-02-23"
   },
   "Azure Powershell": {
     "github": "andreipintica/Azure-PowerShell-CheatSheet",
     "type": "Cheat Sheet",
     "category": "DevOps",
-    "stars": 116,
+    "stars": 117,
     "forks": 147,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "Awesome Azure Architecture": {
     "github": "lukemurraynz/awesome-azure-architecture",
     "type": "Awesome",
     "category": "Cloud",
-    "stars": 1666,
-    "forks": 347,
-    "last_updated": "2026-01-24"
+    "stars": 1678,
+    "forks": 349,
+    "last_updated": "2026-02-23"
   },
   "Azure Monitoring Baseline": {
     "github": "Azure/azure-monitor-baseline-alerts",
     "filePattern": "^docs/content/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 295,
-    "forks": 333,
-    "last_updated": "2026-01-24"
+    "stars": 300,
+    "forks": 335,
+    "last_updated": "2026-02-23"
   },
   "Azure Security": {
     "github": "MicrosoftDocs/security",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Security",
-    "stars": 242,
-    "forks": 176,
-    "last_updated": "2026-01-24"
+    "stars": 245,
+    "forks": 177,
+    "last_updated": "2026-02-23"
   },
   "MS Architecture Center": {
     "github": "MicrosoftDocs/architecture-center",
     "filePattern": "^docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 1970,
-    "forks": 1818,
-    "last_updated": "2026-01-24"
+    "stars": 1975,
+    "forks": 1821,
+    "last_updated": "2026-02-23"
   },
   "Documentation Powershell": {
     "github": "MicrosoftDocs/PowerShell-Docs",
     "filePattern": "^reference/docs-conceptual/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 2357,
-    "forks": 1682,
-    "last_updated": "2026-01-24"
+    "stars": 2377,
+    "forks": 1687,
+    "last_updated": "2026-02-23"
   },
   "MS Virtualization": {
     "github": "MicrosoftDocs/Virtualization-Documentation",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 1894,
-    "forks": 1528,
-    "last_updated": "2026-01-24"
+    "stars": 1899,
+    "forks": 1526,
+    "last_updated": "2026-02-23"
   },
   "Architecture Books": {
     "github": "mhadidg/software-architecture-books",
     "type": "Awesome",
     "category": "Architecture",
-    "stars": 10564,
-    "forks": 829,
-    "last_updated": "2026-01-24"
+    "stars": 10729,
+    "forks": 845,
+    "last_updated": "2026-02-23"
   },
   "Architecture Enterprise Patterns": {
     "github": "chanakaudaya/solution-architecture-patterns",
     "type": "Documentation",
     "category": "Architecture",
-    "stars": 3436,
-    "forks": 669,
-    "last_updated": "2026-01-24"
+    "stars": 3443,
+    "forks": 670,
+    "last_updated": "2026-02-23"
   },
   "Runbooks Prometheus Operator": {
     "github": "prometheus-operator/runbooks",
     "filePattern": "^content/runbooks/(.+)\\.md$",
     "type": "Documentation",
     "category": "DevOps",
-    "stars": 111,
-    "forks": 209,
-    "last_updated": "2026-01-24"
+    "stars": 113,
+    "forks": 206,
+    "last_updated": "2026-02-23"
   },
   "Runbooks Openshift": {
     "github": "openshift/runbooks",
     "filePattern": "^alerts/(.+)\\.md$",
     "type": "Runbook",
     "category": "DevOps",
-    "stars": 90,
-    "forks": 141,
-    "last_updated": "2026-01-24"
+    "stars": 92,
+    "forks": 145,
+    "last_updated": "2026-02-23"
   },
   "Runbooks Container Solutions": {
     "github": "ContainerSolutions/runbooks",
@@ -709,7 +709,7 @@
     "category": "DevOps",
     "stars": 128,
     "forks": 48,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "Runbooks Example": {
     "github": "sstafford/ops_runbook",
@@ -717,7 +717,7 @@
     "category": "DevOps",
     "stars": 31,
     "forks": 43,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "Runbooks Concept": {
     "github": "iworkforthem/runbook",
@@ -725,7 +725,7 @@
     "category": "DevOps",
     "stars": 1,
     "forks": 0,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "AWS S3 Python": {
     "github": "nagwww/aws-s3-book",
@@ -733,34 +733,34 @@
     "category": "DevOps",
     "stars": 31,
     "forks": 14,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "AWS Serverless Workshop": {
     "github": "aws-samples/aws-serverless-workshops",
     "filePattern": "^(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 4263,
-    "forks": 2638,
-    "last_updated": "2026-01-24"
+    "stars": 4265,
+    "forks": 2629,
+    "last_updated": "2026-02-23"
   },
   "AWS EKS Workshop": {
     "github": "aws-samples/eks-workshop-v2",
     "filePattern": "^website/docs/(.+)\\.md$",
     "type": "Documentation",
     "category": "Cloud",
-    "stars": 578,
-    "forks": 557,
-    "last_updated": "2026-01-24"
+    "stars": 584,
+    "forks": 566,
+    "last_updated": "2026-02-23"
   },
   "Runbooks AWS Incidents": {
     "github": "aws-samples/aws-incident-response-playbooks",
     "filePattern": "^playbooks/(.+)\\.md$",
     "type": "Runbook",
     "category": "Cloud",
-    "stars": 1042,
-    "forks": 216,
-    "last_updated": "2026-01-24"
+    "stars": 1050,
+    "forks": 222,
+    "last_updated": "2026-02-23"
   },
   "Runbooks Security Incident": {
     "github": "redar0n/incident-runbook",
@@ -768,7 +768,7 @@
     "category": "Security",
     "stars": 52,
     "forks": 8,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "Runbooks Pentesting": {
     "github": "IlyasKadi/runbook",
@@ -776,7 +776,7 @@
     "category": "Security",
     "stars": 1,
     "forks": 3,
-    "last_updated": "2026-01-24"
+    "last_updated": "2026-02-23"
   },
   "OS Tutorial": {
     "github": "cfenollosa/os-tutorial",
