@@ -419,13 +419,13 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Documentation Apache CloudStack](https://github.com/apache/cloudstack-docs) | ⭐15 | 📄 Docs | DevOps | 
 | [Documentation ArgoCD](https://github.com/argoproj/argo-cd) | ⭐22772 | 📄 Docs | DevOps | 
 | [Documentation Cacti](https://github.com/Cacti/documentation) | ⭐62 | 📄 Docs | DevOps | 
-| [Documentation Certbot](https://github.com/certbot/certbot) | ⭐32972 | 📄 Docs | DevOps | 
+| [Documentation Certbot](https://github.com/certbot/certbot) | ⭐33026 | 📄 Docs | DevOps | 
 | [Documentation Chef](https://github.com/chef/chef-web-docs) | ⭐141 | 📄 Docs | DevOps | 
 | [Documentation CircleCI](https://github.com/circleci/circleci-docs) | ⭐842 | 📄 Docs | DevOps | 
 | [Documentation CloudFoundry Bosh](https://github.com/cloudfoundry/docs-bosh) | ⭐37 | 📄 Docs | DevOps | 
 | [Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium) |  | 👍 Awesome | DevOps | 
 | [Documentation CoreDNS](https://github.com/coredns/coredns.io) | ⭐189 | 📄 Docs | DevOps | 
-| [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐593 | 📄 Docs | DevOps | 
+| [Documentation Datadog](https://github.com/DataDog/documentation) | ⭐597 | 📄 Docs | DevOps | 
 | [Documentation Docker](https://github.com/docker/docs) | ⭐4558 | 📄 Docs | DevOps | 
 | [Documentation FluentBit](https://github.com/fluent/fluent-bit-docs) | ⭐148 | 📄 Docs | DevOps | 
 | [Documentation Flux](https://github.com/fluxcd/website) | ⭐64 | 📄 Docs | DevOps | 
@@ -471,11 +471,11 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Feature Sliced Frontend Design](https://github.com/feature-sliced/documentation) | ⭐2237 | 💡 Tutorial | Architecture | 
 | [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) | ⭐387463 | 📕 Book | Development | 
 | [Free Tier SaaS List](https://github.com/ripienaar/free-for-dev) | ⭐121132 | 📓 Cheat Sheet | SaaS | 
-| [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3750 | 📄 Docs | Security | 
+| [Fuzzing 101](https://github.com/antonio-morales/Fuzzing101) | ⭐3771 | 📄 Docs | Security | 
 | [GCP Cheat Sheet](https://github.com/dennyzhang/cheatsheet-gcp-A4) | ⭐118 | 📓 Cheat Sheet | DevOps | 
 | [GDB Cheat Sheet](https://github.com/reveng007/GDB-Cheat-Sheet) | ⭐26 | 📓 Cheat Sheet | DevOps | 
 | [Generating Flamegraphs](https://github.com/brendangregg/FlameGraph) | ⭐19413 | 📄 Docs | DevOps | 
-| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐356 | 📕 Book | ML | 
+| [Geo Data Science Book](https://github.com/gdsbook/book) | ⭐359 | 📕 Book | ML | 
 | [Github Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) | ⭐56623 | 📓 Cheat Sheet | Programming | 
 | [Globbing Cheat Sheet](https://github.com/begin/globbing) | ⭐154 | 📓 Cheat Sheet | DevOps | 
 | [Google Cloud Guide](https://github.com/mikeroyal/Google-Cloud-Guide) | ⭐194 | 📓 Cheat Sheet | DevOps | 
@@ -485,14 +485,14 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [How to secure a Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | ⭐25940 | 📄 Docs | Security | 
 | [IMDB Data in the Terminal](https://github.com/vvijayan1/imdb_data_on_terminal) | ⭐7 | 💡 Tutorial | ML | 
 | [Interview Questions: 30s-of-code JS](https://github.com/30-seconds/30-seconds-of-interviews) |  | 📓 Cheat Sheet | Development | 
-| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12306 | 💬 Interview | ML | 
-| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐9885 | 💬 Interview | ML | 
-| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐4615 | 💬 Interview | Development | 
+| [Interview Questions: Android](https://github.com/amitshekhariitbhu/android-interview-questions) | ⭐12319 | 💬 Interview | ML | 
+| [Interview Questions: Data Science](https://github.com/alexeygrigorev/data-science-interviews) | ⭐9990 | 💬 Interview | ML | 
+| [Interview Questions: FAANG](https://github.com/ombharatiya/FAANG-Coding-Interview-Questions) | ⭐4850 | 💬 Interview | Development | 
 | [Interview Questions: Java](https://github.com/in28minutes/interview-guide) | ⭐309 | 💬 Interview | Development | 
-| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5289 | 💬 Interview | DevOps | 
-| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1631 | 💬 Interview | ML | 
-| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9195 | 💬 Interview | Architecture | 
-| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐3371 | 💬 Interview | Architecture | 
+| [Interview Questions: Linux Sysadmin](https://github.com/chassing/linux-sysadmin-interview-questions) | ⭐5305 | 💬 Interview | DevOps | 
+| [Interview Questions: ML](https://github.com/Sroy20/machine-learning-interview-questions) | ⭐1637 | 💬 Interview | ML | 
+| [Interview Questions: System Design](https://github.com/shashank88/system_design) | ⭐9200 | 💬 Interview | Architecture | 
+| [Interview Questions: System Design and Architecture](https://github.com/puncsky/system-design-and-architecture) | ⭐3397 | 💬 Interview | Architecture | 
 | [JS Promise Cookbook](https://github.com/mattdesl/promise-cookbook) | ⭐1618 | 📕 Book | Development | 
 | [Jaeger Distributed Tracing](https://github.com/jaegertracing/documentation) | ⭐82 | 📄 Docs | DevOps | 
 | [Java 8 Tutorial](https://github.com/winterbe/java8-tutorial) | ⭐16755 | 📄 Docs | Programming | 
@@ -524,8 +524,8 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [Linux Kernel Docs](https://github.com/bryancandi/LinuxKernelDocs) | ⭐1 | 📄 Docs | Development | 
 | [Linux XDP Tutorial](https://github.com/xdp-project/xdp-tutorial) | ⭐2916 | 📄 Docs | Programming | 
 | [Little Go Book](https://github.com/karlseguin/the-little-go-book) | ⭐2323 | 📕 Book | Development | 
-| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1493 | 📕 Book | Development | 
-| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1462 | 📕 Book | Development | 
+| [Little MongoDB Book](https://github.com/karlseguin/the-little-mongodb-book) | ⭐1494 | 📕 Book | Development | 
+| [Little Redis Book](https://github.com/karlseguin/the-little-redis-book) | ⭐1461 | 📕 Book | Development | 
 | [MDN accessibility](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
 | [MDN api](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
 | [MDN css](https://github.com/mdn/content) | ⭐10729 | 📄 Docs | Web | 
@@ -555,7 +555,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [MS Architecture Center](https://github.com/MicrosoftDocs/architecture-center) | ⭐1987 | 📄 Docs | Architecture | 
 | [MS Virtualization](https://github.com/MicrosoftDocs/Virtualization-Documentation) | ⭐1909 | 📄 Docs | DevOps | 
 | [Markdown Architecture Decision Records](https://github.com/adr/madr) | ⭐2172 | 📓 Cheat Sheet | Architecture | 
-| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2931 | 📄 Docs | DevOps | 
+| [Meta Checklist](https://github.com/huyingjie/Checklist-Checklist) | ⭐2937 | 📄 Docs | DevOps | 
 | [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) | ⭐25408 | 📄 Docs | Programming | 
 | [Monitoring with Prometheus](https://github.com/psibi/prometheus) | ⭐5 | 📕 Book | DevOps | 
 | [Naming Cheat Sheet](https://github.com/kettanaito/naming-cheatsheet) | ⭐14199 | 📓 Cheat Sheet | Programming | 
@@ -585,7 +585,7 @@ It is impossible to cover all important topics, so [lzone.de](https://lzone.de) 
 | [SAP Tutorials](https://github.com/sap-tutorials/Tutorials) | ⭐867 | 📄 Docs | DevOps | 
 | [SRE Cheat Sheet](https://github.com/anshudutta/sre-cheat-sheet) | ⭐58 | 📓 Cheat Sheet | DevOps | 
 | [Scalable SW Architecture](https://github.com/Developer-Y/Scalable-Software-Architecture) | ⭐2235 | 👍 Awesome | Architecture | 
-| [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4642 | 📄 Docs | Security | 
+| [Security 101 for SaaS Startups](https://github.com/forter/security-101-for-saas-startups) | ⭐4646 | 📄 Docs | Security | 
 | [Solution Architecture Links](https://github.com/unlight/solution-architecture) | ⭐692 | 👍 Awesome | Architecture | 
 | [SprintBoot Best Practices](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | ⭐1372 | 📄 Docs | Architecture | 
 | [SysML v2 Documentation](https://github.com/Systems-Modeling/SysML-v2-Release) | ⭐824 | 📄 Docs | Architecture | 
