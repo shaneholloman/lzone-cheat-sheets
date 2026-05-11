@@ -37,6 +37,17 @@ related:
         pip3 install pyflakes
         pip3 install pep8
 
+## Custom CAs
+
+CA handling depends on framework. With Python 'requests' you can control the CA bundle via env variables
+
+- REQUESTS_CA_BUNDLE
+- CURL_CA_BUNDLE
+
+So for your self-signed CA prepare a bundle and set `REQUEST_CA_BUNDLE` to point to it.
+
+## Misc
+
 -   [Python - PyGtk Example Snippets](http://www.eurion.net/python-snippets/snippet/)
 -   [Python - Google Coding Style Guide](http://google-styleguide.googlecode.com/svn/trunk/pyguide.html)
 -   [Python - Django Best Practices](http://lincolnloop.com/django-best-practices/)
